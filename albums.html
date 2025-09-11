@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Vinyl Collection</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #222;
+    }
+
+    header {
+      padding: 1rem;
+      text-align: center;
+      background: #333;
+      color: white;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem;
+    }
+
+    button.filter-btn {
+      background: #ddd;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button.filter-btn.active {
+      background: #333;
+      color: white;
+    }
+
+    #genreFilter,
+    #searchBox {
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    #searchBox {
+      min-width: 200px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .album {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .album img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 1/1;
+    }
+
+    .album-info {
+      padding: 0.5rem;
+      font-size: 0.85rem;
+    }
+
+    .album-info strong {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .album:hover {
+      transform: scale(1.02);
+    }
+
+    .grid.single-result .album img {
+      max-width: 200px;
+      margin: 0 auto;
+    }
+
+    .grid.single-result {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🎶 My Vinyl Collection</h1>
+  </header>
+
+  <div class="filters">
+    <button class="filter-btn active" data-category="all">All</button>
+    <!-- Category buttons will be inserted dynamically -->
+    <select id="genreFilter">
+      <option value="">Filter by Genre</option>
+    </select>
+    <input type="text" id="searchBox" placeholder="Search album or artist...">
+  </div>
+
+  <div class="grid" id="albumGrid"></div>
+
+  <script>
+    let albums = [];
+    let selectedCategory = "all";
+    let selectedGenre = "";
+    let searchTerm = "";
+
+    async function loadAlbums() {
+      const response = await fetch("albums.json");
+      albums = await response.json();
+      buildCategoryButtons();
+      buildGenreDropdown();
+      renderAlbums();
+    }
+
+    function buildCategoryButtons() {
+      const categories = [...new Set(albums.map(a => a.category))];
+      const filtersContainer = document.querySelector(".filters");
+
+      categories.forEach(cat => {
+        const btn = document.createElement("button");
+        btn.className = "filter-btn";
+        btn.textContent = cat;
+        btn.dataset.category = cat;
+        btn.addEventListener("click", () => {
+          selectedCategory = cat;
+          selectedGenre = ""; // reset genre filter
+          searchTerm = ""; // keep search term? (we can keep or reset — we reset here)
+          document.getElementById("searchBox").value = "";
+          document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          buildGenreDropdown(); // repopulate dropdown for new category
+          renderAlbums();
+        });
+        filtersContainer.insertBefore(btn, document.getElementById("genreFilter"));
+      });
+
+      // "All" button handler
+      document.querySelector("[data-category='all']").addEventListener("click", () => {
+        selectedCategory = "all";
+        selectedGenre = "";
+        searchTerm = "";
+        document.getElementById("searchBox").value = "";
+        document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+        document.querySelector("[data-category='all']").classList.add("active");
+        buildGenreDropdown();
+        renderAlbums();
+      });
+    }
+
+    function buildGenreDropdown() {
+      const genreSelect = document.getElementById("genreFilter");
+      genreSelect.innerHTML = `<option value="">Filter by Genre</option>`;
+
+      // Filter genres based on current category
+      const filteredAlbums = selectedCategory === "all"
+        ? albums
+        : albums.filter(a => a.category === selectedCategory);
+
+      const genres = [...new Set(filteredAlbums.flatMap(a => a.genre.split(",").map(g => g.trim()).filter(Boolean)))].sort();
+
+      genres.forEach(g => {
+        const opt = document.createElement("option");
+        opt.value = g;
+        opt.textContent = g;
+        genreSelect.appendChild(opt);
+      });
+
+      genreSelect.addEventListener("change", () => {
+        selectedGenre = genreSelect.value;
+        renderAlbums();
+      });
+    }
+
+    function renderAlbums() {
+      const grid = document.getElementById("albumGrid");
+      grid.innerHTML = "";
+
+      const filtered = albums.filter(a => {
+        const categoryMatch = selectedCategory === "all" || a.category === selectedCategory;
+        const genreMatch = !selectedGenre || a.genre.split(",").map(g => g.trim()).includes(selectedGenre);
+        const searchMatch = !searchTerm ||
+          a.album.toLowerCase().includes(searchTerm) ||
+          a.artist.toLowerCase().includes(searchTerm);
+        return categoryMatch && genreMatch && searchMatch;
+      });
+
+      grid.classList.toggle("single-result", filtered.length === 1);
+
+      filtered.forEach(a => {
+        const div = document.createElement("div");
+        div.className = "album";
+        div.innerHTML = `
+          <img src="${a.cover}" alt="${a.album}">
+          <div class="album-info">
+            <strong>${a.album}</strong>
+            <em>${a.artist}</em><br>
+            ${a.year || ""}<br>
+            <small>${a.genre}</small>
+          </div>
+        `;
+        grid.appendChild(div);
+      });
+    }
+
+    // Search box handler
+    document.getElementById("searchBox").addEventListener("input", (e) => {
+      searchTerm = e.target.value.toLowerCase();
+      renderAlbums();
+    });
+
+    loadAlbums();
+  </script>
+</body>
+
+</html>
