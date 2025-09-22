@@ -13,13 +13,18 @@
    color: white;
  }
 
- .filters {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 0.5rem;
-   padding: 1rem;
- }
+.filters {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 10;
+     justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+}
 
  button.filter-btn {
    background: #ddd;

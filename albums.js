@@ -107,4 +107,16 @@ document.getElementById('searchBox').addEventListener('input', (e) => {
   renderAlbums();
 });
 
+const urlParams = new URLSearchParams(window.location.search);
+const artistParam = urlParams.get('artist');
+if (artistParam) {
+  document.getElementById('searchBox').value = artistParam;
+  setSearch(artistParam);
+}
+
+function setSearch(term) {
+  searchTerm = term.toLowerCase();
+  renderAlbums();
+}
+
 loadAlbums();

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection Statistics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #222;
+    }
+
+    header {
+      padding: 1rem;
+      text-align: center;
+      background: #333;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    canvas {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th,
+    td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background: #f4f4f4;
+    }
+
+    tr:hover {
+      background: #f0f8ff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>📊 Collection Statistics</h1>
+  </header>
+
+
+  <div class="stats-grid">
+    <div>
+      <h2>Total Albums</h2>
+      <p id="albumCount" style="font-size: 2rem; font-weight: bold;"></p>
+
+      <h2>Albums by Genre</h2>
+      <canvas id="genreChart"></canvas>
+
+      <h2>Albums by Year</h2>
+      <canvas id="yearChart"></canvas>
+    </div>
+
+    <div>
+      <h2>Albums per Artist</h2>
+      <table id="artistTable">
+        <thead>
+          <tr>
+            <th>Artist</th>
+            <th>Albums</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    async function loadStats() {
+      const response = await fetch('albums.json');
+      const albums = await response.json();
+
+      // Total albums
+      document.getElementById("albumCount").textContent = albums.length;
+
+      // --- GENRE STATS ---
+      const genreCount = {};
+      albums.forEach(a => {
+        a.genre.split(",").forEach(g => {
+          const genre = g.trim();
+          if (!genre) return;
+          genreCount[genre] = (genreCount[genre] || 0) + 1;
+        });
+      });
+
+      new Chart(document.getElementById('genreChart'), {
+        type: 'bar',
+        data: {
+          labels: Object.keys(genreCount),
+          datasets: [{ data: Object.values(genreCount) }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+
+      // --- ARTIST TABLE ---
+      const artistCount = {};
+      albums.forEach(a => {
+        artistCount[a.artist] = (artistCount[a.artist] || 0) + 1;
+      });
+
+      const sortedArtists = Object.entries(artistCount)
+        .sort((a, b) => b[1] - a[1]);
+
+      const tbody = document.querySelector("#artistTable tbody");
+      sortedArtists.forEach(([artist, count]) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${artist}</td><td>${count}</td>`;
+        row.addEventListener("click", () => {
+          // Redirect to index.html with a search for this artist
+          window.location.href = `albums.html?artist=${encodeURIComponent(artist)}`;
+        });
+        tbody.appendChild(row);
+      });
+
+      // --- YEAR TIMELINE ---
+      const yearCount = {};
+      albums.forEach(a => {
+        const year = parseInt(a.year);
+        if (!isNaN(year)) {
+          yearCount[year] = (yearCount[year] || 0) + 1;
+        }
+      });
+
+      const sortedYears = Object.keys(yearCount).sort((a, b) => a - b);
+      const yearValues = sortedYears.map(y => yearCount[y]);
+
+      new Chart(document.getElementById('yearChart'), {
+        type: 'line',
+        data: {
+          labels: sortedYears,
+          datasets: [{
+            label: 'Albums by Year',
+            data: yearValues,
+            fill: false,
+            borderColor: '#0077cc',
+            tension: 0.3
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true } }
+        }
+      });
+    }
+
+    loadStats();
+  </script>
+</body>
+
+</html>
