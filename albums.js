@@ -106,7 +106,7 @@ function renderAlbums() {
 }
 
 // 🔊 Preview logic using JSONP
-function playPreview(artist, album) {
+function playPreview(artist, album, year) {
   // Remove existing preview bar if any
   let existing = document.getElementById('previewBar');
   if (existing) existing.remove();
@@ -125,7 +125,10 @@ function playPreview(artist, album) {
         <img src="${track.album.cover_small}" alt="${track.album.title}">
         <div class="info">
           <strong>${track.title}</strong><br>
-          <small>${track.artist.name}</small>
+          <small>${track.artist.name} • ${year || ''}</small>
+          <div class="spectrum">
+            <div></div><div></div><div></div><div></div><div></div>
+          </div>
         </div>
         <button id="playPauseBtn">⏸</button>
         <audio id="previewAudio" src="${track.preview}" autoplay></audio>
@@ -135,7 +138,9 @@ function playPreview(artist, album) {
 
       const audio = bar.querySelector('#previewAudio');
       const playPauseBtn = bar.querySelector('#playPauseBtn');
+      const bars = bar.querySelectorAll('.spectrum div');
 
+      // Play/pause toggle
       playPauseBtn.addEventListener('click', () => {
         if (audio.paused) {
           audio.play();
@@ -146,6 +151,22 @@ function playPreview(artist, album) {
           playPauseBtn.textContent = '▶️';
         }
       });
+
+      // Animate spectrum when audio is playing
+      function animateSpectrum() {
+        if (!audio.paused) {
+          bars.forEach(bar => {
+            bar.style.height = `${Math.random() * 100}%`;
+          });
+        }
+        else {
+          bars.forEach(bar => {
+            bar.style.height = '5%';
+          });
+        }
+        requestAnimationFrame(animateSpectrum);
+      }
+      animateSpectrum();
     }
     else {
       alert('No preview found for this album.');
