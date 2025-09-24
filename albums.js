@@ -89,16 +89,76 @@ function renderAlbums() {
     const div = document.createElement('div');
     div.className = 'album';
     div.innerHTML = `
-          <img src='${a.cover}' alt='${a.album}'>
-          <div class='album-info'>
-            <strong>${a.album}</strong>
-            <em>${a.artist}</em><br>
-            ${a.year || ''}<br>
-            <small>${a.genre}</small>
-          </div>
-        `;
+      <img src='${a.cover}' alt='${a.album}'>
+      <div class='album-info'>
+        <strong>${a.album}</strong>
+        <em>${a.artist}</em><br>
+        ${a.year || ''}<br>
+        <small>${a.genre}</small>
+      </div>
+    `;
+
+    // ✅ Click handler: search Deezer for preview and play
+    div.addEventListener('click', () => playPreview(a.artist, a.album));
+
     grid.appendChild(div);
   });
+}
+
+// 🔊 Preview logic using JSONP
+function playPreview(artist, album) {
+  // Remove existing preview bar if any
+  let existing = document.getElementById('previewBar');
+  if (existing) existing.remove();
+
+  const query = encodeURIComponent(`${artist} ${album}`);
+  const callbackName = 'deezerPreviewCallback_' + Math.floor(Math.random() * 100000);
+
+  window[callbackName] = function(data) {
+    if (data.data && data.data.length > 0) {
+      const track = data.data[0];
+
+      // Create preview bar container
+      const bar = document.createElement('div');
+      bar.id = 'previewBar';
+      bar.innerHTML = `
+        <img src="${track.album.cover_small}" alt="${track.album.title}">
+        <div class="info">
+          <strong>${track.title}</strong><br>
+          <small>${track.artist.name}</small>
+        </div>
+        <button id="playPauseBtn">⏸</button>
+        <audio id="previewAudio" src="${track.preview}" autoplay></audio>
+      `;
+
+      document.body.appendChild(bar);
+
+      const audio = bar.querySelector('#previewAudio');
+      const playPauseBtn = bar.querySelector('#playPauseBtn');
+
+      playPauseBtn.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play();
+          playPauseBtn.textContent = '⏸';
+        }
+        else {
+          audio.pause();
+          playPauseBtn.textContent = '▶️';
+        }
+      });
+    }
+    else {
+      alert('No preview found for this album.');
+    }
+
+    // Cleanup JSONP script
+    delete window[callbackName];
+    script.remove();
+  };
+
+  const script = document.createElement('script');
+  script.src = `https://api.deezer.com/search?q=${query}&output=jsonp&callback=${callbackName}`;
+  document.body.appendChild(script);
 }
 
 // Search box handler
