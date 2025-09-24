@@ -592,6 +592,14 @@
     "cover": "images/Metal/Between-The-Buried-And-Me/-The-Parallax-II--Future-Sequence-23908361-2012/cover.jpg"
   },
   {
+    "album": "Automata II",
+    "artist": "Between The Buried And Me",
+    "year": 2018,
+    "category": "Metal",
+    "genre": "Progressive Metal",
+    "cover": "images/Metal/Between-The-Buried-And-Me/Automata-II-250749634-2018/cover.jpg"
+  },
+  {
     "album": "Alaska",
     "artist": "Between The Buried And Me",
     "year": 2005,
@@ -622,6 +630,14 @@
     "category": "Metal",
     "genre": "Progressive Metal, Metalcore",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-Colors-II-250759344-2021/cover.jpg"
+  },
+  {
+    "album": "The Blue Nowhere",
+    "artist": "Between The Buried And Me",
+    "year": 2025,
+    "category": "Metal",
+    "genre": "Progressive Metal",
+    "cover": "images/Metal/Between-The-Buried-And-Me/E-The-Blue-Nowhere-459394835-2025/cover.jpg"
   },
   {
     "album": "The Silent Circus",
@@ -742,6 +758,22 @@
     "category": "Metal",
     "genre": "Heavy Metal, Hard Rock, Metalcore",
     "cover": "images/Metal/Bullet-For-My-Valentine/E-Bullet-For-My-Valentine-269027958-2021/cover.jpg"
+  },
+  {
+    "album": "Bloom",
+    "artist": "Caligula's Horse",
+    "year": 2015,
+    "category": "Metal",
+    "genre": "Prog Rock, Progressive Metal",
+    "cover": "images/Metal/Caligulas-Horse/-Bloom-51618761-2015/cover.jpg"
+  },
+  {
+    "album": "Charcoal Grace",
+    "artist": "Caligula's Horse",
+    "year": 2024,
+    "category": "Metal",
+    "genre": "Prog Rock, Progressive Metal",
+    "cover": "images/Metal/Caligulas-Horse/-Charcoal-Grace-322809018-2024/cover.jpg"
   },
   {
     "album": "Epicus Doomicus Metallicus",
@@ -1216,6 +1248,30 @@
     "cover": "images/Metal/Gruesome/-Savage-Land-(Deluxe-Version)-41364494-2015/cover.jpg"
   },
   {
+    "album": "Fauna",
+    "artist": "Haken",
+    "year": 2023,
+    "category": "Metal",
+    "genre": "Progressive Metal",
+    "cover": "images/Metal/Haken/-Fauna-255406792-2023/cover.jpg"
+  },
+  {
+    "album": "Liveforms: An Evening With Haken (Live in London 2024)",
+    "artist": "Haken",
+    "year": 2025,
+    "category": "Metal",
+    "genre": "Progressive Metal",
+    "cover": "images/Metal/Haken/-Liveforms--An-Evening-With-Haken-(Live-in-London-2-417815589-2025/cover.jpg"
+  },
+  {
+    "album": "Virus",
+    "artist": "Haken",
+    "year": 2020,
+    "category": "Metal",
+    "genre": "Progressive Metal",
+    "cover": "images/Metal/Haken/-Virus-140040289-2020/cover.jpg"
+  },
+  {
     "album": "All That Was Promised",
     "artist": "Hath",
     "year": 2022,
@@ -1318,6 +1374,14 @@
     "category": "Metal",
     "genre": "Melodic Death Metal, Progressive Metal",
     "cover": "images/Metal/In-Mourning/-The-Weight-Of-Oceans-268993551-2012/cover.jpg"
+  },
+  {
+    "album": "The Immortal",
+    "artist": "In Mourning",
+    "year": 2025,
+    "category": "Metal",
+    "genre": "Melodic Death Metal, Progressive Metal",
+    "cover": "images/Metal/In-Mourning/The-Immortal-431695685-2025/cover.jpg"
   },
   {
     "album": "Unholy Deification",
@@ -2216,22 +2280,6 @@
     "cover": "images/Misc/Berurier-Noir/E-Concerto-Pour-Detraques-442090749-1985/cover.jpg"
   },
   {
-    "album": "Bloom",
-    "artist": "Caligula's Horse",
-    "year": 2015,
-    "category": "Misc",
-    "genre": "Prog Rock, Progressive Metal",
-    "cover": "images/Misc/Caligulas-Horse/-Bloom-51618761-2015/cover.jpg"
-  },
-  {
-    "album": "Charcoal Grace",
-    "artist": "Caligula's Horse",
-    "year": 2024,
-    "category": "Misc",
-    "genre": "Prog Rock, Progressive Metal",
-    "cover": "images/Misc/Caligulas-Horse/-Charcoal-Grace-322809018-2024/cover.jpg"
-  },
-  {
     "album": "Orelsan Et Gringe Sont Les Casseurs Flowters",
     "artist": "Casseurs Flowters",
     "year": 2013,
@@ -2358,30 +2406,6 @@
     "category": "Misc",
     "genre": "Punk",
     "cover": "images/Misc/Green-Day/E-Dookie-225469-1994/cover.jpg"
-  },
-  {
-    "album": "Fauna",
-    "artist": "Haken",
-    "year": 2023,
-    "category": "Misc",
-    "genre": "Progressive Metal",
-    "cover": "images/Misc/Haken/-Fauna-255406792-2023/cover.jpg"
-  },
-  {
-    "album": "Liveforms: An Evening With Haken (Live in London 2024)",
-    "artist": "Haken",
-    "year": 2025,
-    "category": "Misc",
-    "genre": "Progressive Metal",
-    "cover": "images/Misc/Haken/-Liveforms--An-Evening-With-Haken-(Live-in-London-2-417815589-2025/cover.jpg"
-  },
-  {
-    "album": "Virus",
-    "artist": "Haken",
-    "year": 2020,
-    "category": "Misc",
-    "genre": "Progressive Metal",
-    "cover": "images/Misc/Haken/-Virus-140040289-2020/cover.jpg"
   },
   {
     "album": "Jane Birkin & Serge Gainsbourg",
