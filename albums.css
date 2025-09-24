@@ -13,20 +13,26 @@
    color: white;
  }
 
- #previewBar {
-   position: fixed;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   display: flex;
-   align-items: center;
-   gap: 10px;
-   background: #222;
-   color: white;
-   padding: 10px 20px;
-   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
-   z-index: 9999;
- }
+#previewBar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  z-index: 9999;
+
+  /* ✅ Centered card with max width similar to grid */
+  max-width: 800px;
+  width: 90%; /* responsive for smaller screens */
+}
+
 
  #previewBar img {
    width: 50px;

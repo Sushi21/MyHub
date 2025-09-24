@@ -99,26 +99,27 @@ function renderAlbums() {
     `;
 
     // ✅ Click handler: search Deezer for preview and play
-    div.addEventListener('click', () => playPreview(a.artist, a.album));
+    div.addEventListener('click', () => playPreview(a.artist, a.album, a.year));
 
     grid.appendChild(div);
   });
 }
 
 // 🔊 Preview logic using JSONP
-function playPreview(artist, album, year) {
+function playPreview(artist, album, year, isRetry = false) {
   // Remove existing preview bar if any
   let existing = document.getElementById('previewBar');
   if (existing) existing.remove();
 
-  const query = encodeURIComponent(`${artist} ${album}`);
+  // Build search query
+  const query = isRetry ? encodeURIComponent(`album:"${album}"`) : encodeURIComponent(`artist:"${artist}" album:"${album}"`);
   const callbackName = 'deezerPreviewCallback_' + Math.floor(Math.random() * 100000);
 
   window[callbackName] = function(data) {
     if (data.data && data.data.length > 0) {
       const track = data.data[0];
 
-      // Create preview bar container
+      // ✅ Create preview bar container
       const bar = document.createElement('div');
       bar.id = 'previewBar';
       bar.innerHTML = `
@@ -152,7 +153,7 @@ function playPreview(artist, album, year) {
         }
       });
 
-      // Animate spectrum when audio is playing
+      // Animate spectrum bars
       function animateSpectrum() {
         if (!audio.paused) {
           bars.forEach(bar => {
@@ -169,7 +170,13 @@ function playPreview(artist, album, year) {
       animateSpectrum();
     }
     else {
-      alert('No preview found for this album.');
+      // ❗ Retry with album name only if not already retried
+      if (!isRetry) {
+        playPreview(artist, album, year, true);
+      }
+      else {
+        alert('No preview found for this album.');
+      }
     }
 
     // Cleanup JSONP script
