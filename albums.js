@@ -93,6 +93,7 @@ function renderAlbums() {
         <strong>${a.album}</strong>
         <p>${a.artist} • ${a.year}</p>
       </div>
+      <small class="genre">${a.genre}</small>
       <div class="album-actions">
         <button class="preview" title="Play Preview">
           ▶

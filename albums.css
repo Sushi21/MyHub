@@ -271,3 +271,8 @@
  .album-actions .tracks-toggle.active {
    background: #ddd;
  }
+
+ .genre {
+  font-size: 10px;
+  margin-bottom: 5px;
+ }
