@@ -71,7 +71,7 @@ function buildGenreDropdown() {
 }
 
 function renderAlbums() {
-  const grid = document.getElementById('albumGrid');
+  const grid = document.querySelector('.grid');
   grid.innerHTML = '';
 
   const filtered = albums.filter(a => {
@@ -84,24 +84,45 @@ function renderAlbums() {
   });
 
   grid.classList.toggle('single-result', filtered.length === 1);
-
   filtered.forEach(a => {
     const div = document.createElement('div');
     div.className = 'album';
     div.innerHTML = `
-      <img src='${a.cover}' alt='${a.album}'>
-      <div class='album-info'>
+      <img src="${a.cover}" alt="${a.album}">
+      <div class="album-info">
         <strong>${a.album}</strong>
-        <em>${a.artist}</em><br>
-        ${a.year || ''}<br>
-        <small>${a.genre}</small>
+        <p>${a.artist} • ${a.year}</p>
+      </div>
+      <div class="album-actions">
+        <button class="preview" title="Play Preview">
+          ▶
+        </button>
+        <button class="tracks-toggle" title="Show Tracks">
+          ☰
+        </button>
+      </div>
+      <div class="tracks-list hidden">
+        <ul>
+          ${a.tracks.map(t => `<li>${t.track}. ${t.title} <span>${t.length}</span></li>`).join('')}
+        </ul>
       </div>
     `;
 
-    // ✅ Click handler: search Deezer for preview and play
-    div.addEventListener('click', () => playPreview(a.artist, a.album, a.year));
-
     grid.appendChild(div);
+
+    // ✅ Play preview ONLY on preview button
+    div.querySelector('.preview').addEventListener('click', (e) => {
+      e.stopPropagation();
+      playPreview(a.artist, a.album, a.year);
+    });
+
+    // ✅ Toggle tracklist on tracks button
+    div.querySelector('.tracks-toggle').addEventListener('click', (e) => {
+      e.stopPropagation();
+      const tracksDiv = div.querySelector('.tracks-list');
+      tracksDiv.classList.toggle('hidden');
+      e.target.classList.toggle('active');
+    });
   });
 }
 

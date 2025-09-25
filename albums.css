@@ -13,25 +13,26 @@
    color: white;
  }
 
-#previewBar {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: #222;
-  color: white;
-  padding: 10px 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  border-radius: 12px;
-  z-index: 9999;
+ #previewBar {
+   position: fixed;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   background: #222;
+   color: white;
+   padding: 10px 20px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+   border-radius: 12px;
+   z-index: 9999;
 
-  /* ✅ Centered card with max width similar to grid */
-  max-width: 800px;
-  width: 90%; /* responsive for smaller screens */
-}
+   /* ✅ Centered card with max width similar to grid */
+   max-width: 800px;
+   width: 90%;
+   /* responsive for smaller screens */
+ }
 
 
  #previewBar img {
@@ -69,20 +70,20 @@
  }
 
  #previewBar .spectrum {
-  display: flex;
-  align-items: flex-end;
-  height: 20px;
-  gap: 2px;
-  margin-top: 4px;
-}
+   display: flex;
+   align-items: flex-end;
+   height: 20px;
+   gap: 2px;
+   margin-top: 4px;
+ }
 
-#previewBar .spectrum div {
-  flex: 1;
-  background: limegreen;
-  border-radius: 2px;
-  height: 5%;
-  transition: height 0.1s ease;
-}
+ #previewBar .spectrum div {
+   flex: 1;
+   background: limegreen;
+   border-radius: 2px;
+   height: 5%;
+   transition: height 0.1s ease;
+ }
 
 
  #previewBar button:hover {
@@ -146,24 +147,28 @@
    background: white;
    border-radius: 8px;
    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-   overflow: hidden;
    display: flex;
    flex-direction: column;
    text-align: center;
    transition: transform 0.2s ease;
+   height: 100%;
  }
-
-
 
  .album img {
    width: 100%;
    object-fit: cover;
-   aspect-ratio: 1/1;
+   aspect-ratio: 1 / 1;
+   border-radius: 8px 8px 0 0;
  }
 
  .album-info {
    padding: 0.5rem;
    font-size: 0.85rem;
+   flex-grow: 1;
+   /* ✅ Takes all available space above the buttons */
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
  }
 
  .album-info strong {
@@ -173,7 +178,6 @@
  }
 
  .album:hover {
-  cursor: pointer;
    transform: scale(1.03);
    transition: transform 0.2s ease;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -187,4 +191,83 @@
  .grid.single-result {
    display: flex;
    justify-content: center;
+ }
+
+ /* === Tracks Section === */
+ .tracks-toggle {
+   background: none;
+   color: #333;
+   border: 1px solid #ccc;
+   padding: 4px 6px;
+   margin: 8px;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 0.8rem;
+   align-self: center;
+   margin-top: auto;
+   transition: background 0.2s;
+ }
+
+ .tracks-toggle:hover {
+   background: #f0f0f0;
+ }
+
+ .tracks-list {
+   margin: 0;
+   padding: 8px;
+   background: #fafafa;
+   border-top: 1px solid #eee;
+   max-height: 200px;
+   overflow-y: auto;
+   font-size: 0.85rem;
+   text-align: left;
+ }
+
+ .tracks-list.hidden {
+   display: none;
+ }
+
+ .tracks-list ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .tracks-list li {
+   display: flex;
+   justify-content: space-between;
+   padding: 2px 0;
+   border-bottom: 1px solid #eee;
+ }
+
+ .album-actions {
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+   margin: 8px 0;
+   margin-top: auto;
+   /* ✅ Pushes actions to bottom of card */
+ }
+
+ .album-actions button {
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   border: 1px solid #ccc;
+   background: white;
+   font-size: 1.2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: background 0.2s, transform 0.1s ease;
+ }
+
+ .album-actions button:hover {
+   background: #f0f0f0;
+   transform: scale(1.1);
+ }
+
+ .album-actions .tracks-toggle.active {
+   background: #ddd;
  }
