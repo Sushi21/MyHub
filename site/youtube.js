@@ -50,7 +50,7 @@ function renderFilters(categories) {
 }
 
 // Load JSON file
-fetch('youtube_subscriptions.json')
+fetch('site/youtube_subscriptions.json')
   .then(response => response.json())
   .then(data => {
     allChannels = data;
