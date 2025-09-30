@@ -1,1 +1,66 @@
 node_modules
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# Rider / VS Code / Visual Studio
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+*.tlog
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Transient files
+*.tmp
+*.temp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Visual Studio caches
+*.vs/
+*.dbmdl
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish outputs
+publish/
+*.pubxml
+*.Publish.xml
+
+# Rider-specific
+*.idea/
+
+# Local config
+appsettings.*.json
+secrets.json
+
+# Tooling
+*.lock.json
