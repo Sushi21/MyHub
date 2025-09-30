@@ -8290,6 +8290,56 @@
     ]
   },
   {
+    "album": "An Insatiable Violence",
+    "artist": "Cryptopsy",
+    "year": 2025,
+    "category": "Metal",
+    "genre": "Technical Death Metal",
+    "cover": "images/Metal/Cryptopsy/An-Insatiable-Violence-419473707-2025/cover.jpg",
+    "tracks": [
+      {
+        "title": "The Nimis Adoration",
+        "track": 1,
+        "length": "04:10"
+      },
+      {
+        "title": "Until There's Nothing Left",
+        "track": 2,
+        "length": "03:58"
+      },
+      {
+        "title": "Dead Eyes Replete",
+        "track": 3,
+        "length": "03:57"
+      },
+      {
+        "title": "Fools Last Acclaim",
+        "track": 4,
+        "length": "03:25"
+      },
+      {
+        "title": "The Art Of Emptiness",
+        "track": 5,
+        "length": "04:15"
+      },
+      {
+        "title": "Our Great Deception",
+        "track": 6,
+        "length": "04:20"
+      },
+      {
+        "title": "Embrace The Nihility",
+        "track": 7,
+        "length": "03:50"
+      },
+      {
+        "title": "Malicious Needs",
+        "track": 8,
+        "length": "05:51"
+      }
+    ]
+  },
+  {
     "album": "The Book Of Suffering: Tome II",
     "artist": "Cryptopsy",
     "year": 2018,
@@ -17545,6 +17595,56 @@
     ]
   },
   {
+    "album": "Holocene",
+    "artist": "The Ocean",
+    "year": 2023,
+    "category": "Metal",
+    "genre": "Post-Metal, Progressive Metal",
+    "cover": "images/Metal/The-Ocean/Holocene-273001339-2023/cover.jpg",
+    "tracks": [
+      {
+        "title": "Preboreal",
+        "track": 1,
+        "length": "05:04"
+      },
+      {
+        "title": "Boreal",
+        "track": 2,
+        "length": "03:41"
+      },
+      {
+        "title": "Sea of Reeds",
+        "track": 3,
+        "length": "05:48"
+      },
+      {
+        "title": "Atlantic",
+        "track": 4,
+        "length": "08:49"
+      },
+      {
+        "title": "Subboreal",
+        "track": 5,
+        "length": "04:46"
+      },
+      {
+        "title": "Unconformities",
+        "track": 6,
+        "length": "09:09"
+      },
+      {
+        "title": "Parabiosis",
+        "track": 7,
+        "length": "08:12"
+      },
+      {
+        "title": "Subatlantic",
+        "track": 8,
+        "length": "06:55"
+      }
+    ]
+  },
+  {
     "album": "Pelagial",
     "artist": "The Ocean",
     "year": 2013,
@@ -21931,6 +22031,41 @@
         "title": "Echoes",
         "track": 6,
         "length": "23:33"
+      }
+    ]
+  },
+  {
+    "album": "Animals",
+    "artist": "Pink Floyd",
+    "year": 1977,
+    "category": "Misc",
+    "genre": "Psychedelic Rock, Prog Rock",
+    "cover": "images/Misc/Pink-Floyd/E-Animals-55391439-1977/cover.jpg",
+    "tracks": [
+      {
+        "title": "Pigs on the Wing 1",
+        "track": 1,
+        "length": "01:24"
+      },
+      {
+        "title": "Dogs",
+        "track": 2,
+        "length": "17:04"
+      },
+      {
+        "title": "Pigs (Three Different Ones)",
+        "track": 3,
+        "length": "11:26"
+      },
+      {
+        "title": "Sheep",
+        "track": 4,
+        "length": "10:18"
+      },
+      {
+        "title": "Pigs on the Wing 2",
+        "track": 5,
+        "length": "01:26"
       }
     ]
   },
