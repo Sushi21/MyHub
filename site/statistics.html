@@ -102,7 +102,7 @@
 
   <script>
     async function loadStats() {
-      const response = await fetch('albums.json');
+      const response = await fetch('../output/collection.json');
       const albums = await response.json();
 
       // Total albums

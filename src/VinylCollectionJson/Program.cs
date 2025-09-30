@@ -10,7 +10,7 @@ using SixLabors.ImageSharp.Processing;
 
 string rootFolder = @"INPUTPATH";
 string outputFolder = @"OUTPUTPATH";
-string outputJson = Path.Combine(outputFolder, "albums.json");
+string outputJson = Path.Combine(outputFolder, "collection.json");
 
 string imagesRoot = Path.Combine(outputFolder, "images");
 Directory.CreateDirectory(imagesRoot);

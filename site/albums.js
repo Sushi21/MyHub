@@ -4,7 +4,7 @@ let selectedGenre = '';
 let searchTerm = '';
 
 async function loadAlbums() {
-  const response = await fetch('albums.json');
+  const response = await fetch('../output/collection.json');
   albums = await response.json();
   buildCategoryButtons();
   buildGenreDropdown();
@@ -88,7 +88,7 @@ function renderAlbums() {
     const div = document.createElement('div');
     div.className = 'album';
     div.innerHTML = `
-      <img src="${a.cover}" alt="${a.album}">
+      <img src="../output/${a.cover}" alt="${a.album}">
       <div class="album-info">
         <strong>${a.album}</strong>
         <p>${a.artist} • ${a.year}</p>
