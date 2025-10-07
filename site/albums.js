@@ -91,7 +91,7 @@ function renderAlbums() {
       <img src="../output/${a.cover}" alt="${a.album}">
       <div class="album-info">
         <strong>${a.album}</strong>
-        <p>${a.artist} • ${a.year}</p>
+        <p><a href="albums.html?artist=${a.artist}">${a.artist}</a> • ${a.year}</p>
       </div>
       <small class="genre">${a.genre}</small>
       <div class="album-actions">

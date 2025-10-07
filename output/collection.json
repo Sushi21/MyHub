@@ -4813,6 +4813,11 @@
         "length": "04:19"
       },
       {
+        "title": "I Love the Dough (feat. Jay-Z & Angela Winbush) [2014 Remaster]",
+        "track": 7,
+        "length": "05:11"
+      },
+      {
         "title": "What's Beef? (2014 Remaster)",
         "track": 8,
         "length": "05:15"
@@ -7505,7 +7510,7 @@
       {
         "title": "The World Breathes With Me",
         "track": 1,
-        "length": "10:00"
+        "length": "09:59"
       },
       {
         "title": "Golem",
@@ -9520,7 +9525,7 @@
       {
         "title": "Deadly Intentions (Cover Version - 2024 Remaster)",
         "track": 5,
-        "length": "02:09"
+        "length": "02:08"
       },
       {
         "title": "The Chase Is On (Cover Version)",
@@ -17315,6 +17320,81 @@
     ]
   },
   {
+    "album": "Live In North America",
+    "artist": "Suffocation",
+    "year": 2021,
+    "category": "Metal",
+    "genre": "Death Metal",
+    "cover": "images/Metal/Suffocation/E-Live-In-North-America-196317300-2021/cover.jpg",
+    "tracks": [
+      {
+        "title": "Thrones of Blood",
+        "track": 1,
+        "length": "06:01"
+      },
+      {
+        "title": "Effigy of the Forgotten",
+        "track": 2,
+        "length": "04:00"
+      },
+      {
+        "title": "Funeral Inception",
+        "track": 3,
+        "length": "03:58"
+      },
+      {
+        "title": "Pierced from Within",
+        "track": 4,
+        "length": "04:41"
+      },
+      {
+        "title": "Surgery of Impalement",
+        "track": 5,
+        "length": "03:55"
+      },
+      {
+        "title": "Dismal Dream",
+        "track": 6,
+        "length": "03:09"
+      },
+      {
+        "title": "Jesus Wept",
+        "track": 7,
+        "length": "03:49"
+      },
+      {
+        "title": "As Grace Descends",
+        "track": 8,
+        "length": "03:05"
+      },
+      {
+        "title": "Liege of Inveracity",
+        "track": 9,
+        "length": "04:46"
+      },
+      {
+        "title": "Breeding the Spawn",
+        "track": 10,
+        "length": "05:43"
+      },
+      {
+        "title": "Catatonia",
+        "track": 11,
+        "length": "04:20"
+      },
+      {
+        "title": "Souls to Deny",
+        "track": 12,
+        "length": "04:49"
+      },
+      {
+        "title": "Infecting the Crypts",
+        "track": 13,
+        "length": "05:41"
+      }
+    ]
+  },
+  {
     "album": "Mezmerize",
     "artist": "System Of A Down",
     "year": 2005,
@@ -17595,6 +17675,81 @@
     ]
   },
   {
+    "album": "Language (Rediscovered Edition)",
+    "artist": "The Contortionist",
+    "year": 2014,
+    "category": "Metal",
+    "genre": "Progressive Metal, Death Metal, Experimental, Math Rock",
+    "cover": "images/Metal/The-Contortionist/-Language-(Rediscovered-Edition)-333729548-2014/cover.jpg",
+    "tracks": [
+      {
+        "title": "The Source",
+        "track": 1,
+        "length": "02:39"
+      },
+      {
+        "title": "Language I: Intuition",
+        "track": 2,
+        "length": "05:24"
+      },
+      {
+        "title": "Language II: Conspire",
+        "track": 3,
+        "length": "04:15"
+      },
+      {
+        "title": "Integration",
+        "track": 4,
+        "length": "05:46"
+      },
+      {
+        "title": "Thrive",
+        "track": 5,
+        "length": "06:04"
+      },
+      {
+        "title": "Primordial Sound",
+        "track": 6,
+        "length": "06:28"
+      },
+      {
+        "title": "Arise",
+        "track": 7,
+        "length": "03:58"
+      },
+      {
+        "title": "Ebb & Flow",
+        "track": 8,
+        "length": "07:06"
+      },
+      {
+        "title": "The Parable",
+        "track": 9,
+        "length": "07:05"
+      },
+      {
+        "title": "The Source (Rediscovered)",
+        "track": 10,
+        "length": "06:29"
+      },
+      {
+        "title": "Language (Rediscovered)",
+        "track": 11,
+        "length": "07:13"
+      },
+      {
+        "title": "Primordial Sound (Rediscovered)",
+        "track": 12,
+        "length": "05:12"
+      },
+      {
+        "title": "The Parable (Rediscovered)",
+        "track": 13,
+        "length": "05:32"
+      }
+    ]
+  },
+  {
     "album": "Holocene",
     "artist": "The Ocean",
     "year": 2023,
@@ -17826,6 +17981,71 @@
         "title": "Denouement Knell",
         "track": 11,
         "length": "15:17"
+      }
+    ]
+  },
+  {
+    "album": "Director's Cuts",
+    "artist": "To The Grave",
+    "year": 2023,
+    "category": "Metal",
+    "genre": "Deathcore",
+    "cover": "images/Metal/To-The-Grave/E-Directors-Cuts-253985929-2023/cover.jpg",
+    "tracks": [
+      {
+        "title": "Warning Shot",
+        "track": 1,
+        "length": "01:44"
+      },
+      {
+        "title": "Red Dot Sight",
+        "track": 2,
+        "length": "03:26"
+      },
+      {
+        "title": "Full Sequence",
+        "track": 3,
+        "length": "03:35"
+      },
+      {
+        "title": "B.D.T.S.",
+        "track": 4,
+        "length": "03:17"
+      },
+      {
+        "title": "Protest & Sever",
+        "track": 5,
+        "length": "04:25"
+      },
+      {
+        "title": "Manhunt",
+        "track": 6,
+        "length": "03:38"
+      },
+      {
+        "title": "Found Footage",
+        "track": 7,
+        "length": "03:43"
+      },
+      {
+        "title": "Axe of Kindness",
+        "track": 8,
+        "length": "04:08"
+      },
+      {
+        "title": "Reversing the Bear Trap",
+        "track": 9,
+        "length": "03:25"
+      },
+      {
+        "title": "Cut off the Head",
+        "track": 10,
+        "length": "03:30"
+      },
+      {
+        "title": "Die, Rise",
+        "track": 11,
+        "length": "08:29"
       }
     ]
   },
@@ -19361,6 +19581,11 @@
         "title": "Fly As Me",
         "track": 3,
         "length": "03:39"
+      },
+      {
+        "title": "After Last Night (with Thundercat & Bootsy Collins)",
+        "track": 4,
+        "length": "04:09"
       },
       {
         "title": "Smokin Out The Window",

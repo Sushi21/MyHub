@@ -177,6 +177,10 @@
    margin-bottom: 0.2rem;
  }
 
+ .album-info a {
+  color: black;
+ }
+
  .album:hover {
    transform: scale(1.03);
    transition: transform 0.2s ease;
@@ -184,7 +188,7 @@
  }
 
  .grid.single-result .album img {
-   max-width: 200px;
+   max-width: 600px;
    margin: 0 auto;
  }
 
