@@ -7,9 +7,10 @@ using VinylCollectionJson;
 using System;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
+using System.Linq;
 
-string rootFolder = @"INPUTPATH";
-string outputFolder = @"OUTPUTPATH";
+string rootFolder = @"C:\Users\YannickDufils\Desktop\Music\Vinyl Collection";
+string outputFolder = @"C:\Users\YannickDufils\Desktop\Music";
 string outputJson = Path.Combine(outputFolder, "collection.json");
 
 string imagesRoot = Path.Combine(outputFolder, "images");
@@ -124,6 +125,11 @@ foreach (var categoryFolder in Directory.GetDirectories(rootFolder))
         }
     }
 }
+
+albumList = albumList
+    .GroupBy(a => new { a.Category, a.Artist })
+    .SelectMany(g => g.OrderBy(a => a.Year))
+    .ToList();
 
 var options = new JsonSerializerOptions { WriteIndented = true, Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping };
 string json = JsonSerializer.Serialize(albumList, options);
