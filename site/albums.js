@@ -212,8 +212,20 @@ function playPreview(artist, album, year, isRetry = false) {
 }
 
 // Search box handler
-document.getElementById('searchBox').addEventListener('input', (e) => {
+const searchBox = document.getElementById('searchBox');
+const clearBtn = document.getElementById('clearSearch');
+
+searchBox.addEventListener('input', (e) => {
   searchTerm = e.target.value.toLowerCase();
+  clearBtn.style.display = searchTerm ? 'block' : 'none';
+  renderAlbums();
+});
+
+// Clear button handler
+clearBtn.addEventListener('click', () => {
+  searchBox.value = '';
+  searchTerm = '';
+  clearBtn.style.display = 'none';
   renderAlbums();
 });
 
