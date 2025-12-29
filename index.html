@@ -1,92 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Media Hub</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fafafa;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-    }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Record Collection On Vinyl</title>
 
-    h1 {
-      margin: 30px 0;
-      font-size: 2.5rem;
-      text-align: center;
-    }
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="🎶 My Vinyl Collection" />
+  <meta property="og:description" content="Browse my vinyl collection, preview songs, and check out tracklists from my favorite albums." />
+  <meta property="og:image" content="https://thefrenchcoder.com/images/vinyl-cover.png" />
+  <meta property="og:url" content="https://thefrenchcoder.com/" />
+  <meta property="og:type" content="website" />
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 30px;
-      width: 90%;
-      max-width: 900px;
-    }
+  <!-- React App Assets -->
+  <script type="module" crossorigin src="./dist/assets/index-CAg3Ji4d.js"></script>
+  <link rel="stylesheet" crossorigin href="./dist/assets/index-CabjxU2E.css">
 
-    .card {
-      background: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
-      cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-    }
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card-content {
-      padding: 15px;
-      text-align: center;
-    }
-
-    .card-content h2 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
-
-    .card-content p {
-      color: #555;
-      font-size: 0.95rem;
-    }
-  </style>
+  <!-- Handle GitHub Pages SPA redirect -->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
+
 <body>
-  <h1>🎵 Welcome to My Media Hub</h1>
-
-  <div class="grid">
-    <div class="card" onclick="window.location.href='albums.html'">
-      <img src="site/images/vinyl-cover.png" alt="Vinyl Collection">
-      <div class="card-content">
-        <h2>Vinyl Collection</h2>
-        <p>Browse all my records, filter by category and genre, and explore statistics.</p>
-      </div>
-    </div>
-
-    <div class="card" onclick="window.location.href='youtube.html'">
-      <img src="site/images/youtube-cover.png" alt="YouTube Subscriptions">
-      <div class="card-content">
-        <h2>YouTube Subscriptions</h2>
-        <p>See what channels I follow and discover some great content creators.</p>
-      </div>
-    </div>
-  </div>
+  <div id="root"></div>
 </body>
+
 </html>

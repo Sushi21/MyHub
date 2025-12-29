@@ -64,3 +64,5 @@ secrets.json
 
 # Tooling
 *.lock.json
+
+.claude

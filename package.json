@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd react-app && npm run dev",
+    "build": "cd react-app && npm run build && cd .. && node update-index.js",
+    "preview": "cd react-app && npm run preview",
+    "deploy": "npm run build && git add dist index.html output && git commit -m \"Deploy React app\" && git push"
   },
   "keywords": [],
   "author": "",
