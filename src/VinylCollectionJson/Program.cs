@@ -9,7 +9,7 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using System.Linq;
 
-string rootFolder = @"C:\Users\YannickDufils\Desktop\Music\Vinyl Collection";
+string rootFolder = @"D:\Vinyl Collection";
 string outputFolder = @"C:\Users\YannickDufils\Desktop\Music";
 string outputJson = Path.Combine(outputFolder, "collection.json");
 
