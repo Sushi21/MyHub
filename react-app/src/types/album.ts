@@ -11,6 +11,7 @@ export interface Album {
   category: string;
   genre: string; // Comma-separated genres
   cover: string; // Relative path: images/[category]/[artist]/...
+  country?: string; // ISO 3166-1 alpha-2 country code (e.g., "US", "GB", "FR")
   tracks: Track[];
 }
 

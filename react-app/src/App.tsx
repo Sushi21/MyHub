@@ -1,3 +1,4 @@
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { AlbumsProvider, useAlbums } from '@/contexts/AlbumsContext';
 import { FilterProvider } from '@/contexts/FilterContext';
 import { PlayerProvider } from '@/contexts/PlayerContext';
@@ -10,6 +11,27 @@ import { PreviewBar } from '@/components/layout/PreviewBar';
 import { NowPlaying } from '@/components/lastfm/NowPlaying';
 import { CollectionStats } from '@/components/stats/CollectionStats';
 import { MostPopular } from '@/components/favorites/MostPopular';
+import { WorldMap } from '@/components/map/WorldMap';
+
+function Navigation() {
+  const location = useLocation();
+  const isMapPage = location.pathname.startsWith('/map');
+
+  return (
+    <nav className="main-nav">
+      <Link to="/">
+        <button className={!isMapPage ? 'active' : ''}>
+          Collection
+        </button>
+      </Link>
+      <Link to="/map">
+        <button className={isMapPage ? 'active' : ''}>
+          World Map
+        </button>
+      </Link>
+    </nav>
+  );
+}
 
 function AppContent() {
   const { loading, error, albums } = useAlbums();
@@ -27,11 +49,22 @@ function AppContent() {
   return (
     <>
       <Header />
-      <CollectionStats />
-      <MostPopular />
-      <FilterBar />
-      <AlbumGrid />
-      <PreviewBar />
+      <Navigation />
+
+      <Routes>
+        <Route path="/" element={
+          <>
+            <CollectionStats />
+            <MostPopular />
+            <FilterBar />
+            <AlbumGrid />
+            <PreviewBar />
+          </>
+        } />
+        <Route path="/map" element={<WorldMap />} />
+        <Route path="/map/:countryCode" element={<WorldMap />} />
+      </Routes>
+
       <NowPlaying
         username="SushiBzh"
         apiKey="ad0685eb4544fa12c9c113c3f28fcd38"

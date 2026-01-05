@@ -6,6 +6,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Boom Bap, Conscious, Jazzy Hip-Hop",
     "cover": "images/HipHop/A-Tribe-Called-Quest/E-Midnight-Marauders-1104286-1993/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Midnight Marauders Tour Guide",
@@ -86,6 +87,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/A-Tribe-Called-Quest/E-Beats,-Rhymes-&-Life-1104196-1996/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Phony Rappers",
@@ -171,6 +173,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Jazzy Hip-Hop",
     "cover": "images/HipHop/A-Tribe-Called-Quest/Peoples-Instinctive-Travels-and-the-Paths-of-Rhyt-428308085-1990/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Push It Along",
@@ -281,6 +284,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/De-La-Soul/EA-3-Feet-High-and-Rising-264031430-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -406,6 +410,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/De-La-Soul/EA-Stakes-Is-High-270936392-1996/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -506,6 +511,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, RnB/Swing, Pop Rap, Conscious, French",
     "cover": "images/HipHop/Diams/Dans-Ma-Bulle-1530057-2006/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Introduction",
@@ -591,6 +597,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, French",
     "cover": "images/HipHop/DJ-Kheops/Sad-Hill-20506588-1997/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Sad Hill",
@@ -701,6 +708,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, French",
     "cover": "images/HipHop/Doc-Gyneco/E-Premiere-consultation-(Edition-20eme-anniversaire)-68646922-1996/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Viens voir le docteur (Dirty Moog Mix)",
@@ -781,6 +789,7 @@
     "category": "HipHop",
     "genre": "Gangsta, G-Funk",
     "cover": "images/HipHop/Dr.-Dre/E-2001-35748016-1999/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Lolo",
@@ -906,6 +915,7 @@
     "category": "HipHop",
     "genre": "Hardcore Hip-Hop, Horrorcore",
     "cover": "images/HipHop/Eminem/E-The-Slim-Shady-LP-(Expanded-Edition)-104207698-1999/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Public Service Announcement",
@@ -1066,6 +1076,7 @@
     "category": "HipHop",
     "genre": "Hardcore Hip-Hop, Horrorcore",
     "cover": "images/HipHop/Eminem/E-The-Marshall-Mathers-LP-(25th-Anniversary)-437391839-2000/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Public Service Announcement 2000",
@@ -1176,6 +1187,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Pop Rap, Hardcore Hip-Hop",
     "cover": "images/HipHop/Eminem/E-The-Eminem-Show-573283-2002/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Curtains Up",
@@ -1286,6 +1298,7 @@
     "category": "HipHop",
     "genre": "Gangsta",
     "cover": "images/HipHop/Foxy-Brown/E-Ill-Na-Na-35885454-1996/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro... Chicken Coop",
@@ -1361,6 +1374,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Boom Bap, Conscious",
     "cover": "images/HipHop/Fugees/The-Score-107394129-1996/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Red Intro",
@@ -1446,6 +1460,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Gang-Starr/No-More-Mr.-Nice-Guy-182327485-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Premier & The Guru",
@@ -1526,6 +1541,7 @@
     "category": "HipHop",
     "genre": "Boom Bap, French",
     "cover": "images/HipHop/Hugo-TSR/Fenetre-Sur-Rue-69572934-2012/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Point De Départ",
@@ -1606,6 +1622,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, French",
     "cover": "images/HipHop/IAM/E-Lecole-du-micro-dargent-138833146-1997/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "L'école du micro d'argent",
@@ -1696,6 +1713,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Gangsta",
     "cover": "images/HipHop/Ice-Cube/E-AmeriKKKas-Most-Wanted-44323656-1990/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Better Off Dead",
@@ -1786,6 +1804,7 @@
     "category": "HipHop",
     "genre": "",
     "cover": "images/HipHop/Kendrick-Lamar/E-good-kid,-m.A.A.d-city-98714351-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Sherane a.k.a Master Splinter’s Daughter",
@@ -1856,6 +1875,7 @@
     "category": "HipHop",
     "genre": "",
     "cover": "images/HipHop/Kendrick-Lamar/E-To-Pimp-A-Butterfly-77703636-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Wesley's Theory",
@@ -1946,6 +1966,7 @@
     "category": "HipHop",
     "genre": "",
     "cover": "images/HipHop/KIDS-SEE-GHOSTS,-Kanye-West,-Kid-Cudi/E-KIDS-SEE-GHOSTS-90151605-2018/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Feel The Love",
@@ -1991,6 +2012,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Ragga HipHop, Pop Rap, French",
     "cover": "images/HipHop/MC-Solaar/Qui-seme-le-vent-recolte-le-tempo-189696322-1991/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -2081,6 +2103,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Hip Hop, French",
     "cover": "images/HipHop/MC-Solaar/Prose-combat-198425027-1994/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Aubade",
@@ -2166,6 +2189,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Trip Hop, Pop Rap, French",
     "cover": "images/HipHop/MC-Solaar/E-Paradisiaque---Mc-Solaar-206700650-2021/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -2316,6 +2340,7 @@
     "category": "HipHop",
     "genre": "Hardcore Hip-Hop, Gangsta, Boom Bap",
     "cover": "images/HipHop/Mobb-Deep/E-The-Infamous-1845906-1995/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Start of Your Ending (41st Side)",
@@ -2406,6 +2431,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Ms.-Lauryn-Hill/The-Miseducation-of-Lauryn-Hill-78067535-1998/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -2496,6 +2522,7 @@
     "category": "HipHop",
     "genre": "Gangsta, Hardcore Hip-Hop",
     "cover": "images/HipHop/N.W.A/E-Straight-Outta-Compton-49820183-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Straight Outta Compton",
@@ -2571,6 +2598,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Boom Bap",
     "cover": "images/HipHop/Nas/E-Illmatic-28104732-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Genesis",
@@ -2631,6 +2659,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Pop Rap, Contemporary R&B",
     "cover": "images/HipHop/Nicki-Minaj/E-Pink-Friday-4857933-2010/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "I’m The Best",
@@ -2701,6 +2730,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Ol-Dirty-Bastard/E-Return-to-the-36-Chambers--The-Dirty-Version-3120818-1995/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -2796,6 +2826,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, French",
     "cover": "images/HipHop/Orelsan/E-Perdu-davance-408924456-2009/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Etoiles Invisibles",
@@ -2876,6 +2907,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Pop Rap, French",
     "cover": "images/HipHop/Orelsan/La-fete-est-finie-408924405-2017/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "San",
@@ -2956,6 +2988,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Pop Rap, French",
     "cover": "images/HipHop/Orelsan/Civilisation-408924679-2021/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Shonen",
@@ -3041,6 +3074,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Outkast/E-ATLiens-43956-1996/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "You May Die (Intro)",
@@ -3126,6 +3160,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Boom Bap, Conscious, Jazzy Hip-Hop, French",
     "cover": "images/HipHop/Oxmo-Puccino/Opera-Puccino-(Edition-Collector)-87951840-2018/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Visions de vie",
@@ -3331,6 +3366,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, French",
     "cover": "images/HipHop/Oxmo-Puccino/Le-cactus-de-Siberie-(Remasterise)-87058172-2004/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -3416,6 +3452,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Jazzy Hip-Hop, Pop Rap, Chanson, French",
     "cover": "images/HipHop/Oxmo-Puccino,-The-Jazzbastards/Lipopette-bar-(Remasterise)-87058146-2006/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Perdre et gagner",
@@ -3491,6 +3528,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Public-Enemy/E-Yo!-Bum-Rush-The-Show-93643046-1987/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "You're Gonna Get Yours",
@@ -3561,6 +3599,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Hip-House, Ragga HipHop",
     "cover": "images/HipHop/Queen-Latifah/All-Hail-the-Queen-219775069-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dance for Me",
@@ -3646,6 +3685,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/RUN-DMC/E-Raising-Hell-494083-1986/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Peter Piper",
@@ -3716,6 +3756,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Snoop-Dogg/EA-Doggystyle-280733973-1993/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Bathtub",
@@ -3791,6 +3832,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/Snoop-Dogg,-Dr.-Dre/E-Missionary-405033652-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Fore Play",
@@ -3881,6 +3923,7 @@
     "category": "HipHop",
     "genre": "Electronic, Hip Hop, Rock, Punk, French",
     "cover": "images/HipHop/Stupeflip/Stupeflip-334657634-2003/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Le crou ne mourra jamais - Intro",
@@ -4001,6 +4044,7 @@
     "category": "HipHop",
     "genre": "Post-Punk, No Wave, Punk, Synth-pop, Electro, Hip Hop, French",
     "cover": "images/HipHop/Stupeflip/Stup-Religion-334660872-2005/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -4111,6 +4155,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Electronic, Hip Hop, Non-Music, Pop Rap, French",
     "cover": "images/HipHop/Stupeflip/E-The-Hypnoflip-Invasion-334724615-2011/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Invasion",
@@ -4226,6 +4271,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Rock, Punk, French",
     "cover": "images/HipHop/Stupeflip/Terrora-!!-334715590-2012/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Introduction",
@@ -4266,6 +4312,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Rock, French",
     "cover": "images/HipHop/Stupeflip/E-Stup-Virus-334667960-2017/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -4371,6 +4418,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Rock, French",
     "cover": "images/HipHop/Stupeflip/Stup-Forever-224784017-2022/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Stup forever",
@@ -4466,6 +4514,7 @@
     "category": "HipHop",
     "genre": "Electronic, Hip Hop, Rock, Pop, French",
     "cover": "images/HipHop/Stupeflip/Sons2Ouf!!-(Inedits-et-remixs-94-2024)-388193633-2024/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Jamais",
@@ -4611,6 +4660,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Conscious, Hardcore Hip-Hop, Boom Bap, French",
     "cover": "images/HipHop/Supreme-NTM/E-Supreme-NTM-1791098-1998/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Intro",
@@ -4701,6 +4751,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/The-Coup/E-Genocide-&-Juice-253328038-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro (G Nut Talks Shit From The Gut)",
@@ -4781,6 +4832,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/The-Notorious-B.I.G-/E-Ready-to-Die-(The-Remaster)-2015-Remaster-40453241-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro (2005 Remaster)",
@@ -4881,6 +4933,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/The-Notorious-B.I.G-/E-Life-After-Death-(2014-Remastered-Edition)-33227058-1997/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Life After Death (Intro) [2014 Remaster]",
@@ -5011,6 +5064,7 @@
     "category": "HipHop",
     "genre": "Hip Hop",
     "cover": "images/HipHop/The-Pharcyde/E-Labcabincalifornia-33887831-1995/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Bullshit",
@@ -5106,6 +5160,7 @@
     "category": "HipHop",
     "genre": "Hip Hop, Boom Bap, Hardcore Hip-Hop",
     "cover": "images/HipHop/Wu-Tang-Clan/E-Enter-The-Wu-Tang-(36-Chambers)-Expanded-Edition-1631844-1993/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Bring Da Ruckus",
@@ -5191,6 +5246,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/200-Stab-Wounds/E-Manual-Manic-Procedures-348271631-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Hands Of Eternity",
@@ -5246,6 +5302,7 @@
     "category": "Metal",
     "genre": "Funeral Doom Metal",
     "cover": "images/Metal/Ahab/The-Coral-Tombs-253323959-2023/cover.jpg",
+    "country": "DE",
     "tracks": [
       {
         "title": "Prof. Arronax' Descent into the Vast Oceans (Feat. Ultha)",
@@ -5291,6 +5348,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Technical Death Metal",
     "cover": "images/Metal/Alustrium/A-Monument-to-Silence-174128261-2021/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "This Hollow Ache",
@@ -5351,6 +5409,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Melodic Death Metal",
     "cover": "images/Metal/An-Abstract-Illusion/Woe-246223116-2022/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Behemoth That Lies Asleep",
@@ -5396,6 +5455,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Sludge Metal",
     "cover": "images/Metal/Anciients/Beyond-the-Reach-of-the-Sun-359877284-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Forbidden Sanctuary",
@@ -5471,6 +5531,7 @@
     "category": "Metal",
     "genre": "Thrash, Speed Metal, Death Metal",
     "cover": "images/Metal/Arch-Enemy/Doomsday-Machine-51971329-2005/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Enter The Machine",
@@ -5536,6 +5597,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal, Death Metal",
     "cover": "images/Metal/Archspire/Bleed-the-Future-189677757-2021/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Drone Corpse Aviator",
@@ -5586,6 +5648,7 @@
     "category": "Metal",
     "genre": "Melodic Death Metal",
     "cover": "images/Metal/At-The-Gates/The-Nightmare-Of-Being-180638395-2021/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Spectre Of Extinction",
@@ -5646,6 +5709,7 @@
     "category": "Metal",
     "genre": "Thrash, Death Metal, Progressive Metal",
     "cover": "images/Metal/Atheist/Unquestionable-Presence-259914812-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Mother Man",
@@ -5741,6 +5805,7 @@
     "category": "Metal",
     "genre": "Death Metal, Technical Death Metal",
     "cover": "images/Metal/ATRÆ-BILIS/Aumicide-347855908-2024/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Protoxenesis",
@@ -5801,6 +5866,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Autopsy/Severed-Survival-56028719-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Charred Remains",
@@ -5881,6 +5947,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Autopsy/E-Ashes,-Organs,-Blood-and-Crypts-311352706-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Rabid Funeral",
@@ -5946,6 +6013,7 @@
     "category": "Metal",
     "genre": "Heavy Metal",
     "cover": "images/Metal/Avenged-Sevenfold/E-Nightmare-4235497-2010/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Nightmare",
@@ -6011,6 +6079,7 @@
     "category": "Metal",
     "genre": "Heavy Metal, Hard Rock, Progressive Metal, Stoner Rock, Indie Rock",
     "cover": "images/Metal/Baroness/STONE-(Deluxe)-320129661-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Embers",
@@ -6101,6 +6170,7 @@
     "category": "Metal",
     "genre": "Death Metal, French",
     "cover": "images/Metal/Benighted/E-Ekbom-338608400-2024/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Prodrome",
@@ -6171,6 +6241,7 @@
     "category": "Metal",
     "genre": "Hardcore, Death Metal, Experimental, Heavy Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-Between-The-Buried-And-Me-(2020-Remix---Remaster)-140588058-2002/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "More Of Myself To Kill",
@@ -6221,6 +6292,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Metalcore",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-The-Silent-Circus-75669885-2003/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Lost Perfection A. Coulrophobia",
@@ -6281,6 +6353,7 @@
     "category": "Metal",
     "genre": "Death Metal, Experimental",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-Alaska-75669905-2005/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "All Bodies",
@@ -6346,6 +6419,7 @@
     "category": "Metal",
     "genre": "Prog Rock, Progressive Metal, Death Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/The-Great-Misdirect-(2019-Remix---Remaster)-122630817-2009/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Mirrors",
@@ -6386,6 +6460,7 @@
     "category": "Metal",
     "genre": "Avantgarde, Progressive Metal, Metalcore, Experimental",
     "cover": "images/Metal/Between-The-Buried-And-Me/The-Parallax-II--Future-Sequence-23908361-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Goodbye To Everything",
@@ -6456,6 +6531,7 @@
     "category": "Metal",
     "genre": "Math Rock, Death Metal, Experimental, Heavy Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/Colors-(2020-Remix---Remaster)-165953177-2007/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Foam Born (A) The Backtrack",
@@ -6506,6 +6582,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/Coma-Ecliptic-48624007-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Node",
@@ -6571,6 +6648,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/Automata-II-250749634-2018/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Proverbial Bellow",
@@ -6601,6 +6679,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Metalcore",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-Automata-I-250750672-2018/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Condemned To The Gallows",
@@ -6641,6 +6720,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Metalcore",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-Colors-II-250759344-2021/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Monochrome",
@@ -6711,6 +6791,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Between-The-Buried-And-Me/E-The-Blue-Nowhere-459394835-2025/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Things We Tell Ourselves in the Dark",
@@ -6771,6 +6852,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal",
     "cover": "images/Metal/Beyond-Creation/The-Aura-36675148-2013/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "No Request for the Corrupted",
@@ -6836,6 +6918,7 @@
     "category": "Metal",
     "genre": "Thrash, Death Metal",
     "cover": "images/Metal/Black-Breath/Slaves-Beyond-Death-51178278-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Pleasure, Pain, Disease",
@@ -6886,6 +6969,7 @@
     "category": "Metal",
     "genre": "Black Metal, Heavy Metal",
     "cover": "images/Metal/Black-Lava/The-Savage-Winds-To-Wisdom-350831797-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Colour Of Death",
@@ -6941,6 +7025,7 @@
     "category": "Metal",
     "genre": "Black Metal",
     "cover": "images/Metal/Blackdeath/E-Bottomless-Armageddon-224121236-2004/cover.jpg",
+    "country": "RU",
     "tracks": [
       {
         "title": "Baphomet",
@@ -6986,6 +7071,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Blood-Incantation/Hidden-History-of-the-Human-Race-118729475-2019/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Slave Species Of The Gods",
@@ -7016,6 +7102,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Blood-Incantation/Interdimensional-Extinction-159113292-2015/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Vth Tablet (Of Enûma Eliš)",
@@ -7046,6 +7133,7 @@
     "category": "Metal",
     "genre": "Ambient, Berlin-School",
     "cover": "images/Metal/Blood-Incantation/Timewave-Zero-207040638-2022/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Io",
@@ -7096,6 +7184,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, Technical Death Metal",
     "cover": "images/Metal/Blood-Incantation/Luminescent-Bridge-310221071-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Obliquity of the Ecliptic",
@@ -7116,6 +7205,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Blood-Incantation/Absolute-Elsewhere-373991284-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Stargate, Tablet I",
@@ -7156,6 +7246,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Blood-Red-Throne/E-Nonagon-323089797-2024/cover.jpg",
+    "country": "NO",
     "tracks": [
       {
         "title": "Epitaph Inscribed",
@@ -7211,6 +7302,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Bolt-Thrower/The-IVth-Crusade-(Full-Dynamic-Range-Edition)-24054168-1993/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "The IVth Crusade",
@@ -7276,6 +7368,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Bolt-Thrower/Those-Once-Loyal-22770204-2005/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "At First Light",
@@ -7331,6 +7424,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Brodequin/Festival-of-Death-237447373-2001/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Mazzatello",
@@ -7396,6 +7490,7 @@
     "category": "Metal",
     "genre": "Brutal Death Metal",
     "cover": "images/Metal/Brodequin/Harbinger-Of-Woe-336099993-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Diabolical Edict",
@@ -7456,6 +7551,7 @@
     "category": "Metal",
     "genre": "Heavy Metal, Hard Rock, Metalcore",
     "cover": "images/Metal/Bullet-For-My-Valentine/E-Bullet-For-My-Valentine-269027958-2021/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Parasite",
@@ -7516,6 +7612,7 @@
     "category": "Metal",
     "genre": "Prog Rock, Progressive Metal",
     "cover": "images/Metal/Caligulas-Horse/Bloom-51618761-2015/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Bloom",
@@ -7571,6 +7668,7 @@
     "category": "Metal",
     "genre": "Prog Rock, Progressive Metal",
     "cover": "images/Metal/Caligulas-Horse/Charcoal-Grace-322809018-2024/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "The World Breathes With Me",
@@ -7626,6 +7724,7 @@
     "category": "Metal",
     "genre": "Doom Metal",
     "cover": "images/Metal/Candlemass/Epicus-Doomicus-Metallicus-68660554-1986/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Solitude",
@@ -7701,6 +7800,7 @@
     "category": "Metal",
     "genre": "Death Metal, Melodic Death Metal",
     "cover": "images/Metal/Carnosus/E-Visions-of-Infinihility-248524621-2023/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Ossein Larcenist",
@@ -7756,6 +7856,7 @@
     "category": "Metal",
     "genre": "Melodic Death Metal, Technical Death Metal",
     "cover": "images/Metal/Carnosus/Wormtales-392609552-2024/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Birthless",
@@ -7816,6 +7917,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Cattle-Decapitation/Karma.Bloody.Karma-22763734-2006/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -7886,6 +7988,7 @@
     "category": "Metal",
     "genre": "Grindcore, Death Metal, Progressive Metal",
     "cover": "images/Metal/Cattle-Decapitation/E-Monolith-of-Inhumanity-23908673-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Carbon Stampede",
@@ -7951,6 +8054,7 @@
     "category": "Metal",
     "genre": "Grindcore",
     "cover": "images/Metal/Cattle-Decapitation/E-The-Anthropocene-Extinction-48882314-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Manufactured Extinct",
@@ -8021,6 +8125,7 @@
     "category": "Metal",
     "genre": "Death Metal, Grindcore, Experimental",
     "cover": "images/Metal/Cattle-Decapitation/E-Death-Atlas-115147560-2019/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Anthropogenic: End Transmission",
@@ -8101,6 +8206,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Cattle-Decapitation/E-Terrasite-265621687-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Terrasitic Adaptation",
@@ -8161,6 +8267,7 @@
     "category": "Metal",
     "genre": "Black Metal, Death Metal",
     "cover": "images/Metal/Celtic-Frost/To-Mega-Therion-63648060-1985/cover.jpg",
+    "country": "CH",
     "tracks": [
       {
         "title": "Innocence And Wrath",
@@ -8226,6 +8333,7 @@
     "category": "Metal",
     "genre": "Death Metal, Black Metal, Doom Metal",
     "cover": "images/Metal/Civerous/Maze-Envy-342231800-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Azure Eye (Intro)",
@@ -8271,6 +8379,7 @@
     "category": "Metal",
     "genre": "Hardcore",
     "cover": "images/Metal/Comeback-Kid/E-Heavy-Steps-199242142-2022/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Heavy Steps",
@@ -8336,6 +8445,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Cryptopsy/E-Blasphemy-Made-Flesh-271136112-1994/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Defenestration",
@@ -8396,6 +8506,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Cryptopsy/E-None-so-Vile-271136123-1996/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Crown Of Horns",
@@ -8446,6 +8557,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Cryptopsy/The-Book-Of-Suffering--Tome-I-383382201-2015/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Detritus (The One They Kept)",
@@ -8476,6 +8588,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal",
     "cover": "images/Metal/Cryptopsy/The-Book-Of-Suffering--Tome-II-383382216-2018/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "The Wretched Living",
@@ -8506,6 +8619,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal",
     "cover": "images/Metal/Cryptopsy/E-As-Gomorrah-Burns-300944454-2023/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Lascivious Undivine",
@@ -8556,6 +8670,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal",
     "cover": "images/Metal/Cryptopsy/An-Insatiable-Violence-419473707-2025/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "The Nimis Adoration",
@@ -8606,6 +8721,7 @@
     "category": "Metal",
     "genre": "Black Metal, Heavy Metal",
     "cover": "images/Metal/Darkthrone/Arctic-Thunder-64506220-2016/cover.jpg",
+    "country": "NO",
     "tracks": [
       {
         "title": "Tundra Leech",
@@ -8656,6 +8772,7 @@
     "category": "Metal",
     "genre": "Blackgaze, Post-Metal",
     "cover": "images/Metal/Deafheaven/Sunbather-20749616-2013/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dream House",
@@ -8701,6 +8818,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Blackgaze, Black Metal",
     "cover": "images/Metal/Deafheaven/Lonely-People-With-Power-415466666-2025/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Incidental I",
@@ -8771,6 +8889,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Death/Scream-Bloody-Gore-(Reissue)-58710280-1987/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Infernal Death",
@@ -8841,6 +8960,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Death/Leprosy-(Reissue)-27561178-1988/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Leprosy",
@@ -8891,6 +9011,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Death/Spiritual-Healing-(Deluxe-Version)-30070367-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Living Monstrosity",
@@ -8941,6 +9062,7 @@
     "category": "Metal",
     "genre": "Death Metal, Technical Death Metal",
     "cover": "images/Metal/Death/Human-3802611-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Flattening of Emotions",
@@ -8991,6 +9113,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal",
     "cover": "images/Metal/Death/Individual-Thought-Patterns-3802620-1993/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Overactive Imagination",
@@ -9051,6 +9174,7 @@
     "category": "Metal",
     "genre": "Death Metal, Heavy Metal",
     "cover": "images/Metal/Death/Symbolic-Remaster-1659127-1995/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Symbolic",
@@ -9131,6 +9255,7 @@
     "category": "Metal",
     "genre": "Death Metal, Heavy Metal",
     "cover": "images/Metal/Death/The-Sound-of-Perseverance---Reissue-6743662-1998/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Scavenger of Human Sorrow",
@@ -9186,6 +9311,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Defeated-Sanity/Chronicles-of-Lunacy-375825833-2024/cover.jpg",
+    "country": "DE",
     "tracks": [
       {
         "title": "Amputationsdrang",
@@ -9236,6 +9362,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/Deftones/E-Around-the-Fur-392562-1997/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "My Own Summer (Shove It)",
@@ -9296,6 +9423,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Deicide/Deicide-(Reissue)-707141-1990/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Lunatic of God's Creation",
@@ -9356,6 +9484,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Disguised-Malignance/Entering-the-Gateways-281275400-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Gates To Nihil",
@@ -9406,6 +9535,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal, Thrash, Progressive Metal",
     "cover": "images/Metal/Dissimulator/Lower-Form-Resistance-331368163-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Neural Hack",
@@ -9451,6 +9581,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Dying-Fetus/Reign-Supreme-15442343-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Invert the Idols",
@@ -9506,6 +9637,7 @@
     "category": "Metal",
     "genre": "Death Metal, Heavy Metal",
     "cover": "images/Metal/Dying-Fetus/E-Make-Them-Beg-For-Death-281881729-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Enlighten Through Agony",
@@ -9566,6 +9698,7 @@
     "category": "Metal",
     "genre": "Thrash, Hardcore",
     "cover": "images/Metal/Enforced/E-At-The-Walls-304995499-2019/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Reckoning Force",
@@ -9621,6 +9754,7 @@
     "category": "Metal",
     "genre": "Speed Metal, Crossover thrash",
     "cover": "images/Metal/Enforced/E-War-Remains-270108759-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Aggressive Menace",
@@ -9681,6 +9815,7 @@
     "category": "Metal",
     "genre": "Crossover thrash",
     "cover": "images/Metal/Enforced/A-Leap-Into-the-Dark---EP-380358091-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Betting on the End",
@@ -9721,6 +9856,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Entombed/Left-Hand-Path-(Full-Dynamic-Range-Edition)-24053980-1990/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Left Hand Path",
@@ -9781,6 +9917,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Entombed/Clandestine-(Full-Dynamic-Range-Edition)-24054046-1991/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Living Dead",
@@ -9836,6 +9973,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Entombed/E-Morning-Star-(2022-Remaster)-236913803-2002/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Chief Rebel Angel",
@@ -9906,6 +10044,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Eternal/Cryptic-Lust-350678157-2024/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Doorway to Tribulation",
@@ -9971,6 +10110,7 @@
     "category": "Metal",
     "genre": "Black Metal, Rock Opera, Symphonic Metal",
     "cover": "images/Metal/Folterkammer/E-Weibermacht-335241456-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Anno Domina",
@@ -10021,6 +10161,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Frozen-Soul/Glacial-Domination-273642491-2023/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Invisible Tormentor",
@@ -10086,6 +10227,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Fulci/E-Duck-Face-Killings-369245184-2024/cover.jpg",
+    "country": "IT",
     "tracks": [
       {
         "title": "Vile Butchery",
@@ -10166,6 +10308,7 @@
     "category": "Metal",
     "genre": "Death Metal, Crust",
     "cover": "images/Metal/Fuming-Mouth/E-Last-Day-of-Sun-309943818-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Out of Time",
@@ -10236,6 +10379,7 @@
     "category": "Metal",
     "genre": "Black Metal",
     "cover": "images/Metal/Gaerea/Coma-369280091-2024/cover.jpg",
+    "country": "PT",
     "tracks": [
       {
         "title": "The Poet's Ballet",
@@ -10296,6 +10440,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Gatecreeper/Deserted-112652709-2019/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Deserted",
@@ -10361,6 +10506,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Gatecreeper/Dark-Superstition-345628526-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dead Star",
@@ -10421,6 +10567,7 @@
     "category": "Metal",
     "genre": "Death Metal, Sludge Metal",
     "cover": "images/Metal/Glacial-Tomb/Lightless-Expanse-359578024-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Stygian Abattoir",
@@ -10476,6 +10623,7 @@
     "category": "Metal",
     "genre": "Power Metal",
     "cover": "images/Metal/Gloryhammer/Space-1992--Rise-of-the-Chaos-Wizards-68086055-2015/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Infernus Ad Astra",
@@ -10536,6 +10684,7 @@
     "category": "Metal",
     "genre": "Power Metal",
     "cover": "images/Metal/Gloryhammer/Legends-from-Beyond-the-Galactic-Terrorvortex-105905805-2019/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Into the Terrorvortex of Kor-Virliath",
@@ -10596,6 +10745,7 @@
     "category": "Metal",
     "genre": "Death Metal, French",
     "cover": "images/Metal/Gojira/E-Terra-Incognita-63791452-2001/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Clone",
@@ -10691,6 +10841,7 @@
     "category": "Metal",
     "genre": "Death Metal, Experimental, French",
     "cover": "images/Metal/Gojira/The-link-13928666-2003/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "The link",
@@ -10756,6 +10907,7 @@
     "category": "Metal",
     "genre": "Death Metal, Experimental, Heavy Metal",
     "cover": "images/Metal/Gojira/From-Mars-to-Sirius-13929179-2006/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Ocean Planet",
@@ -10826,6 +10978,7 @@
     "category": "Metal",
     "genre": "Death Metal, Experimental, Heavy Metal, French",
     "cover": "images/Metal/Gojira/The-way-of-all-flesh-14356128-2008/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Oroborus",
@@ -10896,6 +11049,7 @@
     "category": "Metal",
     "genre": "Thrash, Death Metal, French",
     "cover": "images/Metal/Gojira/LEnfant-Sauvage-15817302-2012/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Explosia",
@@ -10961,6 +11115,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, French",
     "cover": "images/Metal/Gojira/Magma-61808364-2016/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "The Shooting Star",
@@ -11021,6 +11176,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, French",
     "cover": "images/Metal/Gojira/Fortitude-179999770-2021/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Born For One Thing",
@@ -11086,6 +11242,7 @@
     "category": "Metal",
     "genre": "Black Metal, French",
     "cover": "images/Metal/GRIFFON/De-Republica-334573909-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "L'Homme du Tarn",
@@ -11126,6 +11283,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Gruesome/Savage-Land-(Deluxe-Version)-41364494-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Savage Land",
@@ -11186,6 +11344,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Gruesome/Dimensions-of-Horror-58592410-2016/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Forces of Death",
@@ -11226,6 +11385,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Haken/Virus-140040289-2020/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Prosthetic",
@@ -11291,6 +11451,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Haken/Fauna-255406792-2023/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Taurus",
@@ -11346,6 +11507,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Haken/Liveforms--An-Evening-With-Haken-(Live-in-London-2-417815589-2025/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "The Last Lullaby",
@@ -11461,6 +11623,7 @@
     "category": "Metal",
     "genre": "Death Metal, Black Metal, Progressive Metal",
     "cover": "images/Metal/Hath/All-That-Was-Promised-218186831-2022/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Million Violations",
@@ -11516,6 +11679,7 @@
     "category": "Metal",
     "genre": "Doom Metal, Heavy Metal, Sludge Metal",
     "cover": "images/Metal/High-On-Fire/Cometh-The-Storm-343887169-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Lambsbread",
@@ -11581,6 +11745,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal",
     "cover": "images/Metal/Horrendous/E-Ontological-Mysterium-289050800-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Blaze",
@@ -11636,6 +11801,7 @@
     "category": "Metal",
     "genre": "Black Metal, French",
     "cover": "images/Metal/Houle/Houle-249310275-2022/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Le Continent",
@@ -11666,6 +11832,7 @@
     "category": "Metal",
     "genre": "Black Metal, French",
     "cover": "images/Metal/Houle/Ciel-Cendre-et-Misere-Noire-358877762-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Intro",
@@ -11716,6 +11883,7 @@
     "category": "Metal",
     "genre": "Post-Metal, Progressive Metal, French",
     "cover": "images/Metal/Hypno5e/Sheol-265328057-2023/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Sheol, Pt. I - Nowhere",
@@ -11766,6 +11934,7 @@
     "category": "Metal",
     "genre": "Metalcore",
     "cover": "images/Metal/Ice-Nine-Kills/E-Welcome-To-Horrorwood--The-Silver-Scream-2-201302597-2021/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Opening Night…",
@@ -11846,6 +12015,7 @@
     "category": "Metal",
     "genre": "Breakcore, Black Metal, Death Metal, French",
     "cover": "images/Metal/Igorrr/Savage-Sinusoid-72235950-2017/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Viande",
@@ -11911,6 +12081,7 @@
     "category": "Metal",
     "genre": "Abstract, Breakcore, Experimental, Death Metal, French",
     "cover": "images/Metal/Igorrr/Spirituality-and-Distortion-125917739-2020/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Downgrade Desert",
@@ -11991,6 +12162,7 @@
     "category": "Metal",
     "genre": "Avantgarde, Experimental, Death Metal, Electro, French",
     "cover": "images/Metal/Igorrr/Amen-426008027-2025/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Daemoni",
@@ -12061,6 +12233,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Immolation/Dawn-Of-Possession-25257630-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Into Everlasting Fire",
@@ -12121,6 +12294,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Immolation/Majesty-and-Decay-106167028-2010/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -12191,6 +12365,7 @@
     "category": "Metal",
     "genre": "Melodic Death Metal, Progressive Metal",
     "cover": "images/Metal/In-Mourning/The-Weight-Of-Oceans-268993551-2012/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Colossus",
@@ -12246,6 +12421,7 @@
     "category": "Metal",
     "genre": "Melodic Death Metal, Progressive Metal",
     "cover": "images/Metal/In-Mourning/The-Immortal-431695685-2025/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "The Immortal",
@@ -12301,6 +12477,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Incantation/E-Onward-To-Golgotha-(Re-mastered)-5539232-1992/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Golgotha",
@@ -12366,6 +12543,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Incantation/Unholy-Deification-291133238-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Offerings (The Swarm) IV",
@@ -12426,6 +12604,7 @@
     "category": "Metal",
     "genre": "Death Metal, French",
     "cover": "images/Metal/INFERN/Turn-of-the-Tide-385585769-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Undertow",
@@ -12486,6 +12665,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, Technical Death Metal",
     "cover": "images/Metal/Job-For-A-Cowboy/Moon-Healer-313871734-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Beyond the Chemical Doorway",
@@ -12536,6 +12716,7 @@
     "category": "Metal",
     "genre": "Black Metal, Death Metal",
     "cover": "images/Metal/Kanonenfieber/Die-Urkatastrophe-366301033-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Grossmachtfantasie",
@@ -12606,6 +12787,7 @@
     "category": "Metal",
     "genre": "Black Metal, Doom Metal, Gothic Metal",
     "cover": "images/Metal/Katatonia/Brave-Murder-Day-2589849-1997/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Brave",
@@ -12661,6 +12843,7 @@
     "category": "Metal",
     "genre": "",
     "cover": "images/Metal/King-Gizzard-&-The-Lizard-Wizard/E-PetroDragonic-Apocalypse;-or,-Dawn-of-Eternal-Nigh-299065996-2023/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Motor Spirit",
@@ -12706,6 +12889,7 @@
     "category": "Metal",
     "genre": "Funk Metal, Nu Metal, Heavy Metal",
     "cover": "images/Metal/Korn/E-Follow-The-Leader-66035604-1998/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "It's On!",
@@ -12786,6 +12970,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Laceration/I-Erode-367091112-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Degradation",
@@ -12841,6 +13026,7 @@
     "category": "Metal",
     "genre": "Thrash Metal",
     "cover": "images/Metal/Lamb-of-God/E-Ashes-of-the-Wake-(20th-Anniversary-Edition)-383593746-2004/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Laid to Rest",
@@ -12941,6 +13127,7 @@
     "category": "Metal",
     "genre": "Thrash, Death Metal",
     "cover": "images/Metal/Lamb-of-God/E-Sacrament-(15th-Anniversary-Edition)-193889348-2006/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Walk with Me In Hell",
@@ -13021,6 +13208,7 @@
     "category": "Metal",
     "genre": "Thrash, Hardcore, Groove Metal",
     "cover": "images/Metal/Lamb-of-God/E-Lamb-of-God-144959397-2020/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Memento Mori",
@@ -13081,6 +13269,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/Linkin-Park/Hybrid-Theory-68639005-2000/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Papercut",
@@ -13151,6 +13340,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/Linkin-Park/Meteora-234793-2003/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Foreword",
@@ -13226,6 +13416,7 @@
     "category": "Metal",
     "genre": "Sludge Metal, Doom Metal",
     "cover": "images/Metal/Lord-Dying/Summon-the-Faithless-(Deluxe-Version)-21682100-2013/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "In a Frightful State of Gnawed Dismemberment",
@@ -13286,6 +13477,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Industrial",
     "cover": "images/Metal/Marilyn-Manson/E-Portrait-Of-An-American-Family-635876-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Prelude (The Family Trip)",
@@ -13361,6 +13553,7 @@
     "category": "Metal",
     "genre": "Industrial",
     "cover": "images/Metal/Marilyn-Manson/E-Mechanical-Animals-56299921-1998/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Great Big White World",
@@ -13441,6 +13634,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Industrial",
     "cover": "images/Metal/Marilyn-Manson/E-Holy-Wood-79927003-2000/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Godeatgod",
@@ -13546,6 +13740,7 @@
     "category": "Metal",
     "genre": "Glam, Alternative Rock",
     "cover": "images/Metal/Marilyn-Manson/E-WE-ARE-CHAOS-154131027-2020/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "RED BLACK AND BLUE",
@@ -13606,6 +13801,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Dub, French",
     "cover": "images/Metal/Mass-Hysteria/De-cercle-en-cercle-1794453-2001/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Remède",
@@ -13681,6 +13877,7 @@
     "category": "Metal",
     "genre": "Nu Metal, French",
     "cover": "images/Metal/Mass-Hysteria/E-Live-at-Hellfest-2019-199828870-2020/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Reprendre mes esprits",
@@ -13756,6 +13953,7 @@
     "category": "Metal",
     "genre": "Hardcore, Heavy Metal",
     "cover": "images/Metal/Mastodon/Leviathan-2826055-2004/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Blood and Thunder",
@@ -13816,6 +14014,7 @@
     "category": "Metal",
     "genre": "Stoner Rock, Prog Rock, Heavy Metal",
     "cover": "images/Metal/Mastodon/Crack-the-Skye-71830322-2009/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Oblivion",
@@ -13861,6 +14060,7 @@
     "category": "Metal",
     "genre": "Thrash",
     "cover": "images/Metal/Metallica/E-Master-of-Puppets-(Remastered)-166787025-1986/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Battery (Remastered)",
@@ -13911,6 +14111,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Morbid-Angel/Altars-of-Madness-(Full-Dynamic-Range-Edition)-58537881-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Immortal Rites",
@@ -13966,6 +14167,7 @@
     "category": "Metal",
     "genre": "Black Metal",
     "cover": "images/Metal/Mortuus/E-Grape-of-the-Vine-103375894-2014/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Layil",
@@ -14011,6 +14213,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Necrot/Mortal-141241337-2020/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Your Hell",
@@ -14056,6 +14259,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Necrot/E-Lifeless-Birth-341419872-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Cut the Cord",
@@ -14101,6 +14305,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Necrotic-Mutation/E-Sepulchre-of-the-Suffering-84550784-2018/cover.jpg",
+    "country": "CA",
     "tracks": [
       {
         "title": "Rectal Extraction of Maggot Colony",
@@ -14131,6 +14336,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Nile/Amongst-the-Catacombs-of-Nephren-Ka-5538205-1998/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Smashing the Antiu",
@@ -14196,6 +14402,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Nile/Annihilation-of-the-Wicked-5526436-2005/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dusk Falls Upon the Temple of the Serpent on the Mount of Sunrise",
@@ -14256,6 +14463,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Nile/E-The-Underworld-Awaits-Us-All-360871049-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Stelae of Vultures",
@@ -14321,6 +14529,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Nocturnus/The-Key-(Full-Dynamic-Range-Edition)-90988875-1990/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Lake of Fire",
@@ -14376,6 +14585,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Obituary/Slowly-We-Rot-(Reissue)-700008-1989/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Internal Bleeding",
@@ -14456,6 +14666,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Obituary/Frozen-In-Time-700657-2005/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Redneck Stomp",
@@ -14516,6 +14727,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Obituary/Inked-in-Blood-33267133-2014/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Centuries of Lies",
@@ -14586,6 +14798,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Obituary/Obituary-69032608-2017/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Brave",
@@ -14651,6 +14864,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Obituary/Dying-of-Everything-242533851-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Barely Alive",
@@ -14711,6 +14925,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Technical Death Metal",
     "cover": "images/Metal/Obscura/A-Valediction-187399705-2021/cover.jpg",
+    "country": "DE",
     "tracks": [
       {
         "title": "Forsaken",
@@ -14776,6 +14991,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Omnivide/Arise/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Void",
@@ -14791,6 +15007,7 @@
     "category": "Metal",
     "genre": "Doom Metal, Death Metal",
     "cover": "images/Metal/On-Thorns-I-Lay/On-Thorns-I-Lay-303348283-2023/cover.jpg",
+    "country": "GR",
     "tracks": [
       {
         "title": "Fallen From Grace",
@@ -14831,6 +15048,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, Melodic Death Metal",
     "cover": "images/Metal/Opeth/Orchid-(2023-Abbey-Road-Remaster)-295973077-1995/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "In Mist She Was Standing",
@@ -14876,6 +15094,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, Melodic Death Metal",
     "cover": "images/Metal/Opeth/Orchid-269028469-1995/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "In Mist She Was Standing",
@@ -14926,6 +15145,7 @@
     "category": "Metal",
     "genre": "Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/Morningrise-(2023-Abbey-Road-Remaster)-295995143-1996/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Advent",
@@ -14961,6 +15181,7 @@
     "category": "Metal",
     "genre": "Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/Morningrise-269089329-1996/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Advent",
@@ -15001,6 +15222,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/My-Arms,-Your-Hearse-(Abbey-Road-Remaster)-295973066-1998/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Prologue",
@@ -15056,6 +15278,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/My-Arms,-Your-Hearse-269068944-1998/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Prologue",
@@ -15121,6 +15344,7 @@
     "category": "Metal",
     "genre": "Acoustic, Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/Still-Life-(Remastered)-2612191-1999/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "The Moor (Remastered)",
@@ -15166,6 +15390,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal, Melodic Death Metal",
     "cover": "images/Metal/Opeth/Blackwater-Park-1267859-2001/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "The Leper Affinity",
@@ -15216,6 +15441,7 @@
     "category": "Metal",
     "genre": "Acoustic, Prog Rock",
     "cover": "images/Metal/Opeth/Damnation-1267840-2003/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Windowpane",
@@ -15266,6 +15492,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Death Metal",
     "cover": "images/Metal/Opeth/Ghost-Reveries-704181-2005/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Ghost of Perdition",
@@ -15316,6 +15543,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Opeth/Lamentations-(Live-at-Shepherds-Bush-Empire,-Lond-62725422-2006/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Intro",
@@ -15401,6 +15629,7 @@
     "category": "Metal",
     "genre": "Acoustic, Death Metal, Avantgarde, Prog Rock",
     "cover": "images/Metal/Opeth/The-Roundhouse-Tapes-2596136-2007/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "When",
@@ -15456,6 +15685,7 @@
     "category": "Metal",
     "genre": "Acoustic, Death Metal, Prog Rock",
     "cover": "images/Metal/Opeth/Watershed-1758219-2008/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Coil",
@@ -15501,6 +15731,7 @@
     "category": "Metal",
     "genre": "Prog Rock",
     "cover": "images/Metal/Opeth/Heritage-7819603-2011/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Heritage",
@@ -15561,6 +15792,7 @@
     "category": "Metal",
     "genre": "Prog Rock",
     "cover": "images/Metal/Opeth/Pale-Communion-68572918-2014/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Eternal Rains Will Come",
@@ -15611,6 +15843,7 @@
     "category": "Metal",
     "genre": "Prog Rock",
     "cover": "images/Metal/Opeth/Sorceress-396316174-2016/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Persephone",
@@ -15701,6 +15934,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Death Metal",
     "cover": "images/Metal/Opeth/Garden-of-the-Titans-(Live-at-Red-Rocks-Amphitheat-396320053-2018/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Sorceress",
@@ -15761,6 +15995,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Prog Rock",
     "cover": "images/Metal/Opeth/In-Cauda-Venenum-(Extended-Edition)-396318032-2019/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Garden of Earthly Delights",
@@ -15901,6 +16136,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Prog Rock",
     "cover": "images/Metal/Opeth/In-Cauda-Venenum-(Swedish-Version)-396319568-2019/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Livets Trädgård",
@@ -15961,6 +16197,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Prog Rock",
     "cover": "images/Metal/Opeth/In-Cauda-Venenum-396320066-2019/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "Garden of Earthly Delights",
@@ -16021,6 +16258,7 @@
     "category": "Metal",
     "genre": "Progressive Metal",
     "cover": "images/Metal/Opeth/The-Last-Will-And-Testament-389622358-2024/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "§1",
@@ -16071,6 +16309,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Oxygen-Destroyer/Guardian-of-the-Universe-376551181-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Guardian of The Universe (The Final Hope)",
@@ -16126,6 +16365,7 @@
     "category": "Metal",
     "genre": "Grindcore",
     "cover": "images/Metal/Pig-Destroyer/E-Terrifyer-5526261-2004/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Intro",
@@ -16241,6 +16481,7 @@
     "category": "Metal",
     "genre": "Nu Metal, French",
     "cover": "images/Metal/Pleymo/E-Best-of-84405938-2018/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Blöhm",
@@ -16331,6 +16572,7 @@
     "category": "Metal",
     "genre": "Thrash, Hardcore",
     "cover": "images/Metal/Power-Trip/E-Manifest-Decimation-37348114-2013/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Manifest Decimation",
@@ -16381,6 +16623,7 @@
     "category": "Metal",
     "genre": "Thrash, Hardcore",
     "cover": "images/Metal/Power-Trip/E-Nightmare-Logic-66766283-2017/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Soul Sacrifice",
@@ -16431,6 +16674,7 @@
     "category": "Metal",
     "genre": "Funk Metal",
     "cover": "images/Metal/Rage-Against-The-Machine/E-Rage-Against-The-Machine-23653053-1992/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Bombtrack",
@@ -16491,6 +16735,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Reeking-Aura/Blood-and-Bonemeal-226230947-2022/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Remnant of Obstinate Rank (Flooding Ratholes)",
@@ -16536,6 +16781,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal, Thrash",
     "cover": "images/Metal/Revocation/Netherheaven-233511472-2022/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Diabolical Majesty",
@@ -16591,6 +16837,7 @@
     "category": "Metal",
     "genre": "Death Metal, Grindcore",
     "cover": "images/Metal/Ripped-to-Shreds/E-劇變-(Jubian)-226736254-2022/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Violent Compulsion for Conquest",
@@ -16641,6 +16888,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Ripped-to-Shreds/Sanshi-370551224-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Into the Court of Yanluowang",
@@ -16701,6 +16949,7 @@
     "category": "Metal",
     "genre": "Heavy Metal, Thrash, Metalcore, Groove Metal, Nu Metal, Industrial, Gothic Metal, Doom Metal, Death Metal, Hardcore, Crossover thrash, Alternative Metal, Alternative Rock",
     "cover": "images/Metal/Roadrunner-United/The-Concert-(Live-at-the-Nokia-Theatre,-New-York,-278905766-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Punishment (Live at the Nokia Theatre, New York, NY, 12/15/2005)",
@@ -16836,6 +17085,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Sanguisugabogg/E-Homicidal-Ecstasy-255394711-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Black Market Vasectomy",
@@ -16906,6 +17156,7 @@
     "category": "Metal",
     "genre": "Brutal Death Metal",
     "cover": "images/Metal/Sanguisugabogg/E-Hideous-Aftermath-442390496-2025/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Rotted Entanglement",
@@ -16966,6 +17217,7 @@
     "category": "Metal",
     "genre": "Thrash, Death Metal",
     "cover": "images/Metal/Sepultura/E-Arise-707514-1991/cover.jpg",
+    "country": "BR",
     "tracks": [
       {
         "title": "Arise",
@@ -17041,6 +17293,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Severe-Torture/Torn-from-the-Jaws-of-Death-347879224-2024/cover.jpg",
+    "country": "NL",
     "tracks": [
       {
         "title": "The Death Of Everything",
@@ -17101,6 +17354,7 @@
     "category": "Metal",
     "genre": "Doom Metal",
     "cover": "images/Metal/Sleep/Dopesmoker-231645832-2022/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dopesmoker",
@@ -17121,6 +17375,7 @@
     "category": "Metal",
     "genre": "Death Metal, Doom Metal",
     "cover": "images/Metal/SlimeLord/Chytridiomycosis-Relinquished-338948751-2024/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "The Beckoning Bell",
@@ -17166,6 +17421,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/Slipknot/E-Slipknot-68572473-1999/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Blister Exists",
@@ -17251,6 +17507,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/Slipknot/E-Iowa-68572327-2001/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "(515)",
@@ -17331,6 +17588,7 @@
     "category": "Metal",
     "genre": "Heavy Metal, Nu Metal",
     "cover": "images/Metal/Slipknot/E-We-Are-Not-Your-Kind-114924525-2019/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Insert Coin",
@@ -17411,6 +17669,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Suffocation/Effigy-of-the-Forgotten-707803-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Liege of Inveracity",
@@ -17466,6 +17725,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Suffocation/E-Live-In-North-America-196317300-2021/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Thrones of Blood",
@@ -17541,6 +17801,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Suffocation/E-Hymns-From-The-Apocrypha-309993918-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Hymns From The Apocrypha",
@@ -17596,6 +17857,7 @@
     "category": "Metal",
     "genre": "Alternative Rock, Heavy Metal",
     "cover": "images/Metal/System-Of-A-Down/E-Toxicity-17825550-2001/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Prison Song",
@@ -17681,6 +17943,7 @@
     "category": "Metal",
     "genre": "Nu Metal",
     "cover": "images/Metal/System-Of-A-Down/E-Mezmerize-560262-2005/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Soldier Side - Intro",
@@ -17746,6 +18009,7 @@
     "category": "Metal",
     "genre": "Heavy Metal, Hard Rock, Nu Metal",
     "cover": "images/Metal/System-Of-A-Down/E-Hypnotize-1660385-2005/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Attack",
@@ -17816,6 +18080,7 @@
     "category": "Metal",
     "genre": "Death Metal, Hardcore",
     "cover": "images/Metal/Terminal-Nation/Echoes-Of-The-Devils-Den-349952994-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Echoes Of The Devil's Den",
@@ -17886,6 +18151,7 @@
     "category": "Metal",
     "genre": "Melodic Death Metal, Death Metal",
     "cover": "images/Metal/The-Black-Dahlia-Murder/E-Servitude-360218344-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Evening Ephemeral",
@@ -17946,6 +18212,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Death Metal, Experimental, Math Rock",
     "cover": "images/Metal/The-Contortionist/Language-(Rediscovered-Edition)-333729548-2014/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Source",
@@ -18021,6 +18288,7 @@
     "category": "Metal",
     "genre": "Post-Metal",
     "cover": "images/Metal/The-Ocean/E-Pelagial-22770401-2013/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Epipelagic",
@@ -18141,6 +18409,7 @@
     "category": "Metal",
     "genre": "Post-Metal, Progressive Metal",
     "cover": "images/Metal/The-Ocean/Holocene-273001339-2023/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Preboreal",
@@ -18191,6 +18460,7 @@
     "category": "Metal",
     "genre": "Prog Rock, Jazz-Rock, Experimental, Progressive Metal",
     "cover": "images/Metal/The-Omnific/Escapades-399690918-2021/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Antecedent",
@@ -18256,6 +18526,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Technical Death Metal",
     "cover": "images/Metal/The-Ritual-Aura/Heresiarch-307873121-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Light's Hope",
@@ -18321,6 +18592,7 @@
     "category": "Metal",
     "genre": "Deathcore",
     "cover": "images/Metal/To-The-Grave/E-Directors-Cuts-253985929-2023/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Warning Shot",
@@ -18386,6 +18658,7 @@
     "category": "Metal",
     "genre": "Death Metal, Progressive Metal",
     "cover": "images/Metal/Tomb-Mold/The-Enduring-Spirit-313672455-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "The Perfect Memory (Phantasm of Aura)",
@@ -18431,6 +18704,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Prog Rock, Post-Metal",
     "cover": "images/Metal/TOOL/E-Fear-Inoculum-116415070-2019/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Fear Inoculum",
@@ -18491,6 +18765,7 @@
     "category": "Metal",
     "genre": "Death Metal, Gothic Metal, Goth Rock, Progressive Metal",
     "cover": "images/Metal/Tribulation/E-Sub-Rosa-In-Æternum-380358330-2024/cover.jpg",
+    "country": "SE",
     "tracks": [
       {
         "title": "The Unrelenting Choir",
@@ -18546,6 +18821,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Undeath/E-More-Insane-363798569-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Dead From Beyond",
@@ -18606,6 +18882,7 @@
     "category": "Metal",
     "genre": "Technical Death Metal",
     "cover": "images/Metal/Unhallowed-Deliverance/E-Of-Spectres-and-Strife-357668986-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Waking the Spectres",
@@ -18661,6 +18938,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Vader/E-De-Profundis-187221291-1995/cover.jpg",
+    "country": "PL",
     "tracks": [
       {
         "title": "Silent Empire",
@@ -18711,6 +18989,7 @@
     "category": "Metal",
     "genre": "Progressive Metal, Deathcore, Groove Metal, Avantgarde",
     "cover": "images/Metal/vildhjarta/masstaden-under-vatten-192395727-2021/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "lavender haze",
@@ -18806,6 +19085,7 @@
     "category": "Metal",
     "genre": "Death Metal, Deathcore, Technical Death Metal",
     "cover": "images/Metal/Vitriol/Suffer-&-Become-320099050-2024/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Shame and its Afterbirth",
@@ -18866,6 +19146,7 @@
     "category": "Metal",
     "genre": "Folk Metal, Progressive Metal",
     "cover": "images/Metal/Wilderun/Veil-of-Imagination-139509901-2020/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "The Unimaginable Zero Summer",
@@ -18916,6 +19197,7 @@
     "category": "Metal",
     "genre": "Folk Metal, Progressive Metal",
     "cover": "images/Metal/Wilderun/Epigone-(Bonus-Tracks-Edition)-198712055-2022/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Exhaler",
@@ -18981,6 +19263,7 @@
     "category": "Metal",
     "genre": "Death Metal",
     "cover": "images/Metal/Witch-Vomit/Funeral-Sanctum-345155103-2024/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Dying Embers (Intro)",
@@ -19041,6 +19324,7 @@
     "category": "Metal",
     "genre": "Black Metal, Death Metal",
     "cover": "images/Metal/Behemoth/Evangelion-37869813-2009/cover.jpg",
+    "country": "PL",
     "tracks": [
       {
         "title": "Daimonos",
@@ -19096,6 +19380,7 @@
     "category": "Metal",
     "genre": "Death Metal, Experimental",
     "cover": "images/Metal/Pestilence/Testimony-Of-The-Ancients-707839-1991/cover.jpg",
+    "country": "NL",
     "tracks": [
       {
         "title": "The Secrecies of Horror",
@@ -19186,6 +19471,7 @@
     "category": "Misc",
     "genre": "Alt-Pop, Downtempo, Trip Hop, French",
     "cover": "images/Misc/Air/10-000-Hz-Legend-(2021-Remaster)-200540534-2001/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Electronic Performers",
@@ -19256,6 +19542,7 @@
     "category": "Misc",
     "genre": "Downtempo, Synth-pop, French",
     "cover": "images/Misc/Air/Talkie-Walkie-156948-2004/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Venus",
@@ -19316,6 +19603,7 @@
     "category": "Misc",
     "genre": "Downtempo, Synth-pop, French",
     "cover": "images/Misc/Air/Moon-Safari-1477890-1998/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "La Femme D'argent",
@@ -19376,6 +19664,7 @@
     "category": "Misc",
     "genre": "Chanson, French",
     "cover": "images/Misc/Alain-Bashung/Bleu-Petrole-6921300-2008/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Je T'Ai Manqué",
@@ -19441,6 +19730,7 @@
     "category": "Misc",
     "genre": "Soft Rock, Indie Rock, French",
     "cover": "images/Misc/Alain-Bashung/Fantaisie-Militaire-3619848-1998/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Malaxe",
@@ -19511,6 +19801,7 @@
     "category": "Misc",
     "genre": "Soul, Contemporary Jazz, Contemporary R&B",
     "cover": "images/Misc/Amy-Winehouse/E-Back-To-Black-77661290-2006/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Rehab",
@@ -19576,6 +19867,7 @@
     "category": "Misc",
     "genre": "Indie Pop, Pop Rap, French",
     "cover": "images/Misc/Angele/E-Brol-La-Suite-121714683-2018/cover.jpg",
+    "country": "BE",
     "tracks": [
       {
         "title": "Perdus",
@@ -19681,6 +19973,7 @@
     "category": "Misc",
     "genre": "Indie Pop, French",
     "cover": "images/Misc/Angele/Nonante-Cinq-207571859-2021/cover.jpg",
+    "country": "BE",
     "tracks": [
       {
         "title": "Bruxelles Je T’aime",
@@ -19751,6 +20044,7 @@
     "category": "Misc",
     "genre": "Roots Reggae",
     "cover": "images/Misc/Bob-Marley-&-The-Wailers/Rastaman-Vibration-573252-1976/cover.jpg",
+    "country": "JM",
     "tracks": [
       {
         "title": "Positive Vibration",
@@ -19816,6 +20110,7 @@
     "category": "Misc",
     "genre": "Reggae, Roots Reggae",
     "cover": "images/Misc/Bob-Marley-&-The-Wailers/Legend---The-Best-Of-Bob-Marley-And-The-Wailers-92279193-1984/cover.jpg",
+    "country": "JM",
     "tracks": [
       {
         "title": "Is This Love",
@@ -19906,6 +20201,7 @@
     "category": "Misc",
     "genre": "Ambient, Disco, Synth-pop, French",
     "cover": "images/Misc/Bon-Entendeur/Aller-retour-124189302-2019/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Coup de tête",
@@ -20001,6 +20297,7 @@
     "category": "Misc",
     "genre": "Electronic, Pop, French",
     "cover": "images/Misc/Bon-Entendeur/Minuit-242161702-2021/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Alba (feat. Sofiane Pamart)",
@@ -20096,6 +20393,7 @@
     "category": "Misc",
     "genre": "Pop",
     "cover": "images/Misc/Bruno-Mars/Doo-Wops-&-Hooligans-4935184-2010/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Grenade",
@@ -20156,6 +20454,7 @@
     "category": "Misc",
     "genre": "Contemporary R&B, Soul, Funk, Disco",
     "cover": "images/Misc/Bruno-Mars,-Anderson-.Paak,-Silk-Sonic/E-An-Evening-With-Silk-Sonic-218163980-2021/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Silk Sonic Intro",
@@ -20216,6 +20515,7 @@
     "category": "Misc",
     "genre": "Punk, French",
     "cover": "images/Misc/Berurier-Noir/E-Concerto-Pour-Detraques-442090749-1985/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Petit Agité",
@@ -20281,6 +20581,7 @@
     "category": "Misc",
     "genre": "Hip Hop, Conscious, Pop Rap, Trap, French",
     "cover": "images/Misc/Casseurs-Flowters/Orelsan-et-Gringe-sont-les-Casseurs-Flowters-57090723-2013/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "14h58 - Casseurs Flowters Opening",
@@ -20381,6 +20682,7 @@
     "category": "Misc",
     "genre": "House, Techno, Disco, Electro, French",
     "cover": "images/Misc/Daft-Punk/Homework-161010-1997/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Daftendirekt",
@@ -20471,6 +20773,7 @@
     "category": "Misc",
     "genre": "Disco, Funk, Electro, Synth-pop, French",
     "cover": "images/Misc/Daft-Punk/Random-Access-Memories-20115556-2013/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Give Life Back to Music",
@@ -20546,6 +20849,7 @@
     "category": "Misc",
     "genre": "Bop, Hard Bop, Cool Jazz",
     "cover": "images/Misc/Dave-Brubeck/Time-Out-2809485-1959/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Blue Rondo à la Turk",
@@ -20631,6 +20935,7 @@
     "category": "Misc",
     "genre": "Folk Rock, Classic Rock",
     "cover": "images/Misc/David-Bowie/Hunky-Dory-(2015-Remaster)-51161418-1971/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Changes (2015 Remaster)",
@@ -20696,6 +21001,7 @@
     "category": "Misc",
     "genre": "Glam, Art Rock",
     "cover": "images/Misc/David-Bowie/The-Rise-and-Fall-of-Ziggy-Stardust-and-the-Spider-51161406-1972/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Five Years (2012 Remaster)",
@@ -20761,6 +21067,7 @@
     "category": "Misc",
     "genre": "Hard Rock",
     "cover": "images/Misc/Deep-Purple/Deep-Purple-in-Rock-68729519-1970/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Speed King",
@@ -20806,6 +21113,7 @@
     "category": "Misc",
     "genre": "Synth-pop, Soul",
     "cover": "images/Misc/Diana-Ross/Swept-Away-(Expanded-Edition)-42970403-2015/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Missing You",
@@ -20911,6 +21219,7 @@
     "category": "Misc",
     "genre": "Classic Rock",
     "cover": "images/Misc/Dire-Straits/Love-Over-Gold-621765-1982/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Telegraph Road",
@@ -20946,6 +21255,7 @@
     "category": "Misc",
     "genre": "Power Pop, Dance-pop, Synth-pop, Disco, Funk",
     "cover": "images/Misc/Dua-Lipa/E-Future-Nostalgia-160241484-2020/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Future Nostalgia",
@@ -21021,6 +21331,7 @@
     "category": "Misc",
     "genre": "Classic Rock, Country Rock",
     "cover": "images/Misc/Eagles/Hotel-California-(2013-Remaster)-20767338-1976/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Hotel California (2013 Remaster)",
@@ -21076,6 +21387,7 @@
     "category": "Misc",
     "genre": "Rock & Roll",
     "cover": "images/Misc/Elvis-Presley/Elvis-30-#1-Hits-5119977-2002/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Heartbreak Hotel",
@@ -21241,6 +21553,7 @@
     "category": "Misc",
     "genre": "Pop Rock, Soft Rock, AOR",
     "cover": "images/Misc/Fleetwood-Mac/Rumours-68714459-1977/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Second Hand News (2001 Remaster)",
@@ -21306,6 +21619,7 @@
     "category": "Misc",
     "genre": "Classic Rock",
     "cover": "images/Misc/Foreigner/Agent-Provocateur-261594-1984/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Tooth and Nail",
@@ -21366,6 +21680,7 @@
     "category": "Misc",
     "genre": "Leftfield, Electro, Trip Hop",
     "cover": "images/Misc/Gorillaz/Plastic-Beach-3489541-2010/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Orchestral Intro (feat. Sinfonia ViVA)",
@@ -21456,6 +21771,7 @@
     "category": "Misc",
     "genre": "Punk",
     "cover": "images/Misc/Green-Day/E-Dookie-225469-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Burnout",
@@ -21541,6 +21857,7 @@
     "category": "Misc",
     "genre": "Chanson, French",
     "cover": "images/Misc/Jane-Birkin,-Serge-Gainsbourg/Jane-Birkin-&-Serge-Gainsbourg-57509951-1969/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Je t'aime moi non plus",
@@ -21606,6 +21923,7 @@
     "category": "Misc",
     "genre": "Blues Rock",
     "cover": "images/Misc/Janis-Joplin/Pearl-45984560-1971/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Move Over",
@@ -21666,6 +21984,7 @@
     "category": "Misc",
     "genre": "Experimental, Ambient, Synth-pop, French",
     "cover": "images/Misc/Jean-Michel-Jarre/Equinoxe-335743679-1978/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Equinoxe, Pt. 1",
@@ -21716,6 +22035,7 @@
     "category": "Misc",
     "genre": "Soundtrack, Musical, Score",
     "cover": "images/Misc/Justin-Hurwitz,-Justin-Paul,-Benj-Pasek/La-La-Land-(Original-Motion-Picture-Soundtrack)-67782565-2016/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Another Day Of Sun",
@@ -21801,6 +22121,7 @@
     "category": "Misc",
     "genre": "",
     "cover": "images/Misc/King-Crimson/In-The-Court-Of-The-Crimson-King-(Expanded-&-Remas-333602953-1969/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "21st Century Schizoid Man",
@@ -21851,6 +22172,7 @@
     "category": "Misc",
     "genre": "",
     "cover": "images/Misc/Kool-&-The-Gang/Ladies-Night-93614239-1979/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Ladies Night",
@@ -21891,6 +22213,7 @@
     "category": "Misc",
     "genre": "Zouk, Soca, French",
     "cover": "images/Misc/La-compagnie-creole/Ca-fait-rire-les-oiseaux-44023698-1986/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Soca party sur la plage",
@@ -21946,6 +22269,7 @@
     "category": "Misc",
     "genre": "Pop",
     "cover": "images/Misc/Lana-Del-Rey/E-Born-To-Die-13152058-2012/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Born To Die",
@@ -22016,6 +22340,7 @@
     "category": "Misc",
     "genre": "Pop, Folk, World, & Country, French",
     "cover": "images/Misc/Les-Hay-Babies/E-La-4ieme-dimension-(Version-Longue)-150374083-2016/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Baby viendra back à genou",
@@ -22091,6 +22416,7 @@
     "category": "Misc",
     "genre": "Pop",
     "cover": "images/Misc/Michael-Jackson/Off-the-Wall-19994074-1979/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Don't Stop 'Til You Get Enough",
@@ -22151,6 +22477,7 @@
     "category": "Misc",
     "genre": "Disco, Soul",
     "cover": "images/Misc/Michael-Jackson/Thriller-1781800-1982/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Wanna Be Startin' Somethin'",
@@ -22206,6 +22533,7 @@
     "category": "Misc",
     "genre": "Electronic, Funk / Soul, Pop",
     "cover": "images/Misc/Michael-Jackson/Bad-(Remastered)-16953800-1987/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Bad",
@@ -22271,6 +22599,7 @@
     "category": "Misc",
     "genre": "Electro, Synth-pop, Disco",
     "cover": "images/Misc/Michael-Jackson/Dangerous-19193427-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Jam",
@@ -22351,6 +22680,7 @@
     "category": "Misc",
     "genre": "RnB/Swing, Pop Rock, Hip Hop, Disco",
     "cover": "images/Misc/Michael-Jackson/E-HIStory---PAST,-PRESENT-AND-FUTURE---BOOK-I-5279052-1995/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Billie Jean",
@@ -22511,6 +22841,7 @@
     "category": "Misc",
     "genre": "Pop Rock, Contemporary R&B, Funk",
     "cover": "images/Misc/Michael-Jackson/E-Scream-78413620-2017/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "This Place Hotel (a.k.a. Heartbreak Hotel)",
@@ -22591,6 +22922,7 @@
     "category": "Misc",
     "genre": "Alternative Rock",
     "cover": "images/Misc/Muse/Black-Holes-and-Revelations-2844705-2006/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Take a Bow",
@@ -22661,6 +22993,7 @@
     "category": "Misc",
     "genre": "Alternative Rock, Grunge",
     "cover": "images/Misc/Nirvana/E-Nevermind-(Remastered)-7772057-1991/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Smells Like Teen Spirit",
@@ -22736,6 +23069,7 @@
     "category": "Misc",
     "genre": "Grunge",
     "cover": "images/Misc/Nirvana/MTV-Unplugged-In-New-York-2570671-1994/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "About A Girl (Live)",
@@ -22816,6 +23150,7 @@
     "category": "Misc",
     "genre": "Psychedelic Rock, Prog Rock",
     "cover": "images/Misc/Pink-Floyd/Meddle-55391742-1971/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "One of These Days",
@@ -22856,6 +23191,7 @@
     "category": "Misc",
     "genre": "Prog Rock, Psychedelic Rock",
     "cover": "images/Misc/Pink-Floyd/E-The-Dark-Side-of-the-Moon-55391786-1973/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Speak to Me",
@@ -22916,6 +23252,7 @@
     "category": "Misc",
     "genre": "Psychedelic Rock, Prog Rock",
     "cover": "images/Misc/Pink-Floyd/E-Animals-55391439-1977/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Pigs on the Wing 1",
@@ -22951,6 +23288,7 @@
     "category": "Misc",
     "genre": "\tMath Rock, Prog Rock",
     "cover": "images/Misc/Plini/Handmade-Cities-180076410-2016/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Electric Sunrise",
@@ -22996,6 +23334,7 @@
     "category": "Misc",
     "genre": "Electronic, Pop, Tropical House, Synth-pop, French",
     "cover": "images/Misc/Polo-&-Pan/Caravelle-77624289-2017/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Abysse",
@@ -23066,6 +23405,7 @@
     "category": "Misc",
     "genre": "Alternative Rock, Symphonic Rock",
     "cover": "images/Misc/Porcupine-Tree/In-Absentia-(Remastered)-389511924-2002/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Blackest Eyes",
@@ -23136,6 +23476,7 @@
     "category": "Misc",
     "genre": "Prog Rock, Symphonic Rock",
     "cover": "images/Misc/Porcupine-Tree/Deadwing-(Remastered)-389511490-2005/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Deadwing",
@@ -23191,6 +23532,7 @@
     "category": "Misc",
     "genre": "Prog Rock",
     "cover": "images/Misc/Porcupine-Tree/Fear-Of-A-Blank-Planet-(2024-Remaster)-396664061-2007/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Fear Of A Blank Planet",
@@ -23236,6 +23578,7 @@
     "category": "Misc",
     "genre": "Minneapolis Sound, Funk, Pop Rock",
     "cover": "images/Misc/Prince/Purple-Rain-363642639-1984/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Let's Go Crazy",
@@ -23291,6 +23634,7 @@
     "category": "Misc",
     "genre": "Arena Rock, Classic Rock",
     "cover": "images/Misc/Queen/Greatest-Hits-II-37091210-1991/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "A Kind Of Magic",
@@ -23386,6 +23730,7 @@
     "category": "Misc",
     "genre": "Alternative Rock",
     "cover": "images/Misc/Radiohead/OK-Computer-58990510-1997/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Airbag",
@@ -23456,6 +23801,7 @@
     "category": "Misc",
     "genre": "Hard Rock",
     "cover": "images/Misc/Rival-Sons/DARKFIGHTER-281152679-2023/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Mirrors",
@@ -23506,6 +23852,7 @@
     "category": "Misc",
     "genre": "Chanson, Ballad, French",
     "cover": "images/Misc/Serge-Gainsbourg/Du-chant-a-la-une-!-274792290-1958/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Le poinçonneur des Lilas",
@@ -23566,6 +23913,7 @@
     "category": "Misc",
     "genre": "Chanson, Ballad, Latin Jazz, French",
     "cover": "images/Misc/Serge-Gainsbourg/Letonnant-Serge-Gainsbourg-(N°3)-57371746-1959/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "La chanson de Prévert",
@@ -23626,6 +23974,7 @@
     "category": "Misc",
     "genre": "Chanson, French",
     "cover": "images/Misc/Serge-Gainsbourg/No.2-(Remastered)-126183237-1959/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Le Claqueur de Doigts",
@@ -23696,6 +24045,7 @@
     "category": "Misc",
     "genre": "Chanson, French",
     "cover": "images/Misc/Serge-Gainsbourg/N°4-90463799-1962/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Les goémons",
@@ -23766,6 +24116,7 @@
     "category": "Misc",
     "genre": "Chanson, Contemporary Jazz, French",
     "cover": "images/Misc/Serge-Gainsbourg/Confidentiel-81498672-1963/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Chez Le Ye-Ye",
@@ -23836,6 +24187,7 @@
     "category": "Misc",
     "genre": "Afro-Cuban Jazz, Chanson, French",
     "cover": "images/Misc/Serge-Gainsbourg/Gainsbourg-percussions-53170737-1964/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Joanna",
@@ -23906,6 +24258,7 @@
     "category": "Misc",
     "genre": "Chanson, Pop Rock, French",
     "cover": "images/Misc/Serge-Gainsbourg/Initials-B.B--77637532-1968/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Initials B.B.",
@@ -23981,6 +24334,7 @@
     "category": "Misc",
     "genre": "Avantgarde, French",
     "cover": "images/Misc/Serge-Gainsbourg/Histoire-de-Melody-Nelson-77643435-1971/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Melody",
@@ -24026,6 +24380,7 @@
     "category": "Misc",
     "genre": "Chanson, Ballad, French",
     "cover": "images/Misc/Serge-Gainsbourg/Vu-de-lexterieur-57371770-1973/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Je suis venu te dire que je m'en vais",
@@ -24086,6 +24441,7 @@
     "category": "Misc",
     "genre": "Rock & Roll, Chanson, French",
     "cover": "images/Misc/Serge-Gainsbourg/Rock-Around-The-Bunker-77637281-1975/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Nazi Rock",
@@ -24146,6 +24502,7 @@
     "category": "Misc",
     "genre": "Lounge, Pop Rock, Avantgarde, French",
     "cover": "images/Misc/Serge-Gainsbourg/Lhomme-a-tete-de-chou-77644941-1976/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "L'homme à tête de chou",
@@ -24216,6 +24573,7 @@
     "category": "Misc",
     "genre": "Roots Reggae, Chanson, Reggae-Pop, French",
     "cover": "images/Misc/Serge-Gainsbourg/Aux-armes-et-caetera-77644956-1979/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Javanaise Remake",
@@ -24286,6 +24644,7 @@
     "category": "Misc",
     "genre": "Reggae, French",
     "cover": "images/Misc/Serge-Gainsbourg/Mauvaises-nouvelles-des-etoiles-77619954-1981/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Overseas Telegram",
@@ -24356,6 +24715,7 @@
     "category": "Misc",
     "genre": "Chanson, Synth-pop, French",
     "cover": "images/Misc/Serge-Gainsbourg/Love-On-The-Beat-77555654-1984/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Love On The Beat",
@@ -24406,6 +24766,7 @@
     "category": "Misc",
     "genre": "Rock, Pop",
     "cover": "images/Misc/Serge-Gainsbourg/Youre-Under-Arrest-77597995-1987/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "You're Under Arrest",
@@ -24466,6 +24827,7 @@
     "category": "Misc",
     "genre": "Pop Rock, Indie Pop, Vocal",
     "cover": "images/Misc/Sia/1000-Forms-Of-Fear-31007157-2014/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Chandelier",
@@ -24536,6 +24898,7 @@
     "category": "Misc",
     "genre": "Pop",
     "cover": "images/Misc/Sia/Everyday-Is-Christmas-(Deluxe-Edition)-97228353-2017/cover.jpg",
+    "country": "AU",
     "tracks": [
       {
         "title": "Santa's Coming for Us",
@@ -24611,6 +24974,7 @@
     "category": "Misc",
     "genre": "Alternative Metal, Progressive Metal",
     "cover": "images/Misc/Soen/Memorial-296176730-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "Sincere",
@@ -24671,6 +25035,7 @@
     "category": "Misc",
     "genre": "Rock, Pop, Stage & Screen",
     "cover": "images/Misc/Sparks/Annette-(Unlimited-Edition)-(Original-Motion-Pictu-204254276-2021/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "So May We Start",
@@ -24996,6 +25361,7 @@
     "category": "Misc",
     "genre": "Pop Rock, Musical, French",
     "cover": "images/Misc/Starmania/Starmania-(Remasterise-en-2009)-120925864-1978/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Ouverture (Remasterisé en 2009)",
@@ -25106,6 +25472,7 @@
     "category": "Misc",
     "genre": "Chanson, French",
     "cover": "images/Misc/Starmania/Starmania-(Version-1988)-2009-Remaster-120925691-1978/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Il se passe quelque chose (Remastered)",
@@ -25211,6 +25578,7 @@
     "category": "Misc",
     "genre": "Art Rock, Prog Rock",
     "cover": "images/Misc/Steven-Wilson/The-Raven-That-Refused-to-Sing-(and-Other-Stories)-68656061-2013/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Luminol",
@@ -25251,6 +25619,7 @@
     "category": "Misc",
     "genre": "Prog Rock, Alternative Rock",
     "cover": "images/Misc/Steven-Wilson/Hand-Cannot-Erase-43739572-2015/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "First Regret / 3 Years Older",
@@ -25301,6 +25670,7 @@
     "category": "Misc",
     "genre": "Prog Rock, Pop Rock, Art Rock",
     "cover": "images/Misc/Steven-Wilson/To-The-Bone-77669975-2017/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "To The Bone",
@@ -25366,6 +25736,7 @@
     "category": "Misc",
     "genre": "Prog Rock",
     "cover": "images/Misc/Steven-Wilson/The-Overview-422390713-2025/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Objects Outlive Us",
@@ -25436,6 +25807,7 @@
     "category": "Misc",
     "genre": "Soul, Disco",
     "cover": "images/Misc/Stevie-Wonder/Songs-In-The-Key-Of-Life-79419393-1976/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Love's In Need Of Love Today",
@@ -25551,6 +25923,7 @@
     "category": "Misc",
     "genre": "Art Rock, Soft Rock, Prog Rock",
     "cover": "images/Misc/The-Alan-Parsons-Project/Eye-In-The-Sky-70379768-1982/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Sirius (Instr.)",
@@ -25611,6 +25984,7 @@
     "category": "Misc",
     "genre": "Pop Rock, Classic Rock",
     "cover": "images/Misc/The-Beach-Boys/Pet-Sounds-(Original-Mono-&-Stereo-Mix)-150843-1966/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Wouldn't It Be Nice",
@@ -25756,6 +26130,7 @@
     "category": "Misc",
     "genre": "Pop Rock",
     "cover": "images/Misc/The-Beatles/Abbey-Road-(Remastered)-55130630-1969/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Come Together",
@@ -25851,6 +26226,7 @@
     "category": "Misc",
     "genre": "Pop Rock",
     "cover": "images/Misc/The-Beatles/Let-It-Be-(Remastered)-55130733-1970/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Two Of Us",
@@ -25921,6 +26297,7 @@
     "category": "Misc",
     "genre": "Darkwave, Goth Rock",
     "cover": "images/Misc/The-Cure/E-Pornography-(Deluxe-Edition)-34954127-1982/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "One Hundred Years (2005 Remaster)",
@@ -26041,6 +26418,7 @@
     "category": "Misc",
     "genre": "Blues Rock, Psychedelic Rock",
     "cover": "images/Misc/The-Doors/E-The-Doors-389258-1967/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Break on Through (To the Other Side)",
@@ -26106,6 +26484,7 @@
     "category": "Misc",
     "genre": "Blues Rock, Psychedelic Rock",
     "cover": "images/Misc/The-Doors/Morrison-Hotel-402617-1970/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Roadhouse Blues",
@@ -26171,6 +26550,7 @@
     "category": "Misc",
     "genre": "Folk Rock, Pop Rock",
     "cover": "images/Misc/The-Mamas-&-The-Papas/If-You-Can-Believe-Your-Eyes-&-Ears-36379790-1966/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Monday, Monday",
@@ -26241,6 +26621,7 @@
     "category": "Misc",
     "genre": "Alternative Rock",
     "cover": "images/Misc/The-Police/Outlandos-DAmour-(Remastered-2003)-107690665-1978/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Next To You",
@@ -26301,6 +26682,7 @@
     "category": "Misc",
     "genre": "New Wave",
     "cover": "images/Misc/The-Police/Zenyatta-Mondatta-(Remastered-2003)-107690629-1980/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Don't Stand So Close To Me",
@@ -26366,6 +26748,7 @@
     "category": "Misc",
     "genre": "Alternative Rock",
     "cover": "images/Misc/The-Police/Synchronicity-(Remastered-2003)-107690641-1983/cover.jpg",
+    "country": "GB",
     "tracks": [
       {
         "title": "Synchronicity I",
@@ -26431,6 +26814,7 @@
     "category": "Misc",
     "genre": "Reggae, French",
     "cover": "images/Misc/Tryo/Mamagubida-162853355-1999/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "L'hymne de nos campagnes",
@@ -26521,6 +26905,7 @@
     "category": "Misc",
     "genre": "Reggae, French",
     "cover": "images/Misc/Tryo/Faut-quils-sactivent-162196145-2000/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "J'ai trouvé des amis",
@@ -26601,6 +26986,7 @@
     "category": "Misc",
     "genre": "Reggae, Pop, Chanson, French",
     "cover": "images/Misc/Tryo/Grain-de-sable-162852481-2003/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "G8",
@@ -26686,6 +27072,7 @@
     "category": "Misc",
     "genre": "Pop, Folk, World, & Country, Chanson, French",
     "cover": "images/Misc/Tryo/Tout-au-Tour-(Live)-252914874-2022/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Danser ce soir",
@@ -26766,6 +27153,7 @@
     "category": "Misc",
     "genre": "Rock, Pop, French",
     "cover": "images/Misc/Telephone/Crache-ton-venin-(Remasterise-en-2015)-68731123-1979/cover.jpg",
+    "country": "FR",
     "tracks": [
       {
         "title": "Crache ton venin (Remasterisé en 2015)",
@@ -26821,6 +27209,7 @@
     "category": "Misc",
     "genre": "Soundtrack, Minimal, Ambient",
     "cover": "images/Misc/Vangelis/Lapocalypse-des-animaux-(Remastered)-73078096-1973/cover.jpg",
+    "country": "GR",
     "tracks": [
       {
         "title": "Apocalypse des animaux - Générique (Remastered)",
@@ -26866,6 +27255,7 @@
     "category": "Misc",
     "genre": "Score, Soundtrack, Ambient",
     "cover": "images/Misc/Vangelis/Blade-Runner-(Music-From-The-Original-Soundtrack)-198197-1994/cover.jpg",
+    "country": "GR",
     "tracks": [
       {
         "title": "Main Titles",
@@ -26936,6 +27326,7 @@
     "category": "Misc",
     "genre": "Alternative Rock, Soundtrack, Modern Classical, Goth Rock",
     "cover": "images/Misc/Various-Artists/Nightmare-Before-Christmas-Special-Edition-67354584-1993/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Overture - (The Nightmare Before Christmas)",
@@ -27071,6 +27462,7 @@
     "category": "Misc",
     "genre": "Rock, Funk / Soul, Non-Music, Stage & Screen",
     "cover": "images/Misc/Various-Artists/E-Pulp-Fiction-(Music-From-The-Motion-Picture)-105504714-1994/cover.jpg",
+    "country": "XG",
     "tracks": [
       {
         "title": "Pumpkin And Honey Bunny",
@@ -27141,6 +27533,7 @@
     "category": "Misc",
     "genre": "Prog Rock",
     "cover": "images/Misc/The-Anchoret/It-All-Began-With-Loneliness-300186444-2023/cover.jpg",
+    "country": null,
     "tracks": [
       {
         "title": "An Office For…",
@@ -27196,6 +27589,7 @@
     "category": "Misc",
     "genre": "Alternative Rock, Experimental",
     "cover": "images/Misc/Mr.-Bungle/California-4428808-1999/cover.jpg",
+    "country": "US",
     "tracks": [
       {
         "title": "Sweet Charity",
