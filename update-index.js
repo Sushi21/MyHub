@@ -37,14 +37,29 @@ const indexHtml = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Record Collection On Vinyl</title>
+  <title>My Vinyl Records Collection</title>
 
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="🎶 My Vinyl Collection" />
-  <meta property="og:description" content="Browse my vinyl collection, preview songs, and check out tracklists from my favorite albums." />
-  <meta property="og:image" content="https://thefrenchcoder.com/images/vinyl-cover.png" />
-  <meta property="og:url" content="https://thefrenchcoder.com/" />
+  <meta name="description" content="Explore my vinyl records collection with album previews, world map of artists by country, and detailed tracklists." />
+
+  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thefrenchcoder.com/" />
+  <meta property="og:title" content="My Vinyl Records Collection" />
+  <meta property="og:description" content="Explore my vinyl records collection with album previews, world map of artists by country, and detailed tracklists." />
+  <meta property="og:image" content="https://thefrenchcoder.com/images/vinyl-cover.jpg" />
+  <meta property="og:image:secure_url" content="https://thefrenchcoder.com/images/vinyl-cover.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="3486" />
+  <meta property="og:image:height" content="1961" />
+  <meta property="og:image:alt" content="My Vinyl Records Collection - Album covers display" />
+  <meta property="og:site_name" content="My Vinyl Records Collection" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://thefrenchcoder.com/" />
+  <meta name="twitter:title" content="My Vinyl Records Collection" />
+  <meta name="twitter:description" content="Explore my vinyl records collection with album previews, world map of artists by country, and detailed tracklists." />
+  <meta name="twitter:image" content="https://thefrenchcoder.com/images/vinyl-cover.jpg" />
 
   <!-- React App Assets -->
   <script type="module" crossorigin src="${jsPath}"></script>

@@ -2,14 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0;url=/" />
   <title>Redirecting...</title>
   <script>
     // GitHub Pages 404 redirect for SPA routing
-    sessionStorage.redirect = location.href;
+    // Don't redirect static assets (images, output files, etc.)
+    var path = location.pathname;
+    var isStaticAsset = /\.(png|jpg|jpeg|gif|svg|json|mp3|wav|css|js)$/i.test(path) ||
+                        path.startsWith('/images/') ||
+                        path.startsWith('/output/') ||
+                        path.startsWith('/dist/');
+
+    if (!isStaticAsset) {
+      sessionStorage.redirect = location.href;
+      location.replace('/');
+    } else {
+      // For static assets, show a proper 404 message
+      document.write('<h1>404 - File Not Found</h1><p>The requested file does not exist.</p>');
+    }
   </script>
 </head>
 <body>
-  Redirecting...
+  <noscript>Redirecting...</noscript>
 </body>
 </html>
