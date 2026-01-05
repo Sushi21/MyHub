@@ -1027,6 +1027,12 @@ button.filter-btn.active {
 }
 
 /* Country Details */
+.country-flag {
+  font-size: 1.2em;
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
 .country-albums {
   display: flex;
   flex-direction: column;

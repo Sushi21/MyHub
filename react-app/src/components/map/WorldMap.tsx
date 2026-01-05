@@ -21,6 +21,15 @@ interface NoCountryMapping {
   country?: string;
 }
 
+// Convert country code to flag emoji
+function getFlagEmoji(countryCode: string): string {
+  const codePoints = countryCode
+    .toUpperCase()
+    .split('')
+    .map((char) => 127397 + char.charCodeAt(0));
+  return String.fromCodePoint(...codePoints);
+}
+
 export function WorldMap() {
   const { albums } = useAlbums();
   const { countryCode } = useParams<{ countryCode: string }>();
@@ -231,7 +240,7 @@ export function WorldMap() {
         {selectedCountry ? (
           <div className="country-details">
             <h3>
-              {selectedCountry.name} ({selectedCountry.count} album{selectedCountry.count !== 1 ? 's' : ''})
+              <span className="country-flag">{getFlagEmoji(selectedCountry.code)}</span> {selectedCountry.name} ({selectedCountry.count} album{selectedCountry.count !== 1 ? 's' : ''})
             </h3>
             <div className="country-albums">
               {selectedCountry.albums.map((album) => (
@@ -248,15 +257,17 @@ export function WorldMap() {
           </div>
         ) : (
           <div className="country-list">
-            <h3>Top Countries</h3>
+            <h3>Countries</h3>
             <div className="country-list-items">
-              {countryData.slice(0, 10).map((country) => (
+              {countryData.map((country) => (
                 <button
                   key={country.code}
                   className="country-list-item"
                   onClick={() => handleCountryClick(country)}
                 >
-                  <span className="country-name">{country.name}</span>
+                  <span className="country-name">
+                    <span className="country-flag">{getFlagEmoji(country.code)}</span> {country.name}
+                  </span>
                   <span className="country-count">{country.count} albums</span>
                 </button>
               ))}
