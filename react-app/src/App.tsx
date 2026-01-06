@@ -9,6 +9,7 @@ import { FilterBar } from '@/components/filters/FilterBar';
 import { AlbumGrid } from '@/components/albums/AlbumGrid';
 import { PreviewBar } from '@/components/layout/PreviewBar';
 import { NowPlaying } from '@/components/lastfm/NowPlaying';
+import { ScrobblingHistory } from '@/components/lastfm/ScrobblingHistory';
 import { CollectionStats } from '@/components/stats/CollectionStats';
 import { MostPopular } from '@/components/favorites/MostPopular';
 import { WorldMap } from '@/components/map/WorldMap';
@@ -16,17 +17,24 @@ import { WorldMap } from '@/components/map/WorldMap';
 function Navigation() {
   const location = useLocation();
   const isMapPage = location.pathname.startsWith('/map');
+  const isScrobblesPage = location.pathname.startsWith('/scrobbles');
+  const isCollectionPage = !isMapPage && !isScrobblesPage;
 
   return (
     <nav className="main-nav">
       <Link to="/">
-        <button className={!isMapPage ? 'active' : ''}>
+        <button className={isCollectionPage ? 'active' : ''}>
           Collection
         </button>
       </Link>
       <Link to="/map">
         <button className={isMapPage ? 'active' : ''}>
-          World Map
+          Collection World Map
+        </button>
+      </Link>
+      <Link to="/scrobbles">
+        <button className={isScrobblesPage ? 'active' : ''}>
+          Scrobbles
         </button>
       </Link>
     </nav>
@@ -63,6 +71,12 @@ function AppContent() {
         } />
         <Route path="/map" element={<WorldMap />} />
         <Route path="/map/:countryCode" element={<WorldMap />} />
+        <Route path="/scrobbles" element={
+          <ScrobblingHistory
+            username="SushiBzh"
+            apiKey="ad0685eb4544fa12c9c113c3f28fcd38"
+          />
+        } />
       </Routes>
 
       <NowPlaying
