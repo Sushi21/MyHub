@@ -13,18 +13,20 @@ import { ScrobblingHistory } from '@/components/lastfm/ScrobblingHistory';
 import { CollectionStats } from '@/components/stats/CollectionStats';
 import { MostPopular } from '@/components/favorites/MostPopular';
 import { WorldMap } from '@/components/map/WorldMap';
+import { About } from '@/components/about/About';
 
 function Navigation() {
   const location = useLocation();
   const isMapPage = location.pathname.startsWith('/map');
   const isScrobblesPage = location.pathname.startsWith('/scrobbles');
-  const isCollectionPage = !isMapPage && !isScrobblesPage;
+  const isAboutPage = location.pathname.startsWith('/about');
+  const isCollectionPage = !isMapPage && !isScrobblesPage && !isAboutPage;
 
   return (
     <nav className="main-nav">
       <Link to="/">
         <button className={isCollectionPage ? 'active' : ''}>
-          Collection
+          Records Collection on Vinyl
         </button>
       </Link>
       <Link to="/map">
@@ -35,6 +37,11 @@ function Navigation() {
       <Link to="/scrobbles">
         <button className={isScrobblesPage ? 'active' : ''}>
           Scrobbles
+        </button>
+      </Link>
+      <Link to="/about">
+        <button className={isAboutPage ? 'active' : ''}>
+          About
         </button>
       </Link>
     </nav>
@@ -77,6 +84,7 @@ function AppContent() {
             apiKey="ad0685eb4544fa12c9c113c3f28fcd38"
           />
         } />
+        <Route path="/about" element={<About />} />
       </Routes>
 
       <NowPlaying
