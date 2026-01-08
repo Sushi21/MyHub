@@ -1,30 +1,26 @@
+import { useNavigate } from 'react-router-dom';
 import { useAlbums } from '@/contexts/AlbumsContext';
-import { useFilters } from '@/contexts/FilterContext';
 import { usePlayer } from '@/contexts/PlayerContext';
 
 export function RandomButton() {
   const { albums } = useAlbums();
-  const { setSearchTerm, setSelectedCategory, setSelectedGenre, setShouldAutoPlay } = useFilters();
-  const { stop } = usePlayer();
+  const { play } = usePlayer();
+  const navigate = useNavigate();
 
   const handleRandomAlbum = () => {
     if (albums.length === 0) return;
-
-    // Stop any currently playing preview
-    stop();
 
     // Pick a random album
     const randomIndex = Math.floor(Math.random() * albums.length);
     const randomAlbum = albums[randomIndex];
 
-    // Reset filters and search for the random album
-    setSelectedCategory('all');
-    setSelectedGenre('');
-    setShouldAutoPlay(true); // Enable auto-play BEFORE setting search term
-    setSearchTerm(randomAlbum.album);
+    // Navigate to album details page
+    navigate(`/album/${encodeURIComponent(randomAlbum.artist)}/${encodeURIComponent(randomAlbum.album)}`);
 
-    // Scroll to top to see the result
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Auto-play preview after a short delay to allow page to load
+    setTimeout(() => {
+      play(randomAlbum.artist, randomAlbum.album, randomAlbum.year);
+    }, 500);
   };
 
   return (

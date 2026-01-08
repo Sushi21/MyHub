@@ -1769,6 +1769,14 @@ button.filter-btn.active {
   padding: 2rem;
 }
 
+.album-details-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
 .back-button {
   display: inline-flex;
   align-items: center;
@@ -1782,7 +1790,6 @@ button.filter-btn.active {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-bottom: 2rem;
 }
 
 .back-button:hover {
@@ -2083,6 +2090,17 @@ button.filter-btn.active {
 @media (max-width: 768px) {
   .album-details-page {
     padding: 1rem;
+  }
+
+  .album-details-nav {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .album-details-nav .back-button,
+  .album-details-nav .random-btn {
+    width: 100%;
+    justify-content: center;
   }
 
   .album-details-container {

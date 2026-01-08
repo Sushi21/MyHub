@@ -118,6 +118,29 @@ export function AlbumDetails() {
     revealAlbum(album.artist, album.album);
   };
 
+  const handleRandomAlbum = () => {
+    if (albums.length === 0) return;
+
+    // Pick a random album (different from current one if possible)
+    let randomAlbum;
+    if (albums.length > 1) {
+      do {
+        const randomIndex = Math.floor(Math.random() * albums.length);
+        randomAlbum = albums[randomIndex];
+      } while (randomAlbum.artist === album.artist && randomAlbum.album === album.album);
+    } else {
+      randomAlbum = albums[0];
+    }
+
+    // Navigate to the new album details page
+    navigate(`/album/${encodeURIComponent(randomAlbum.artist)}/${encodeURIComponent(randomAlbum.album)}`);
+
+    // Auto-play preview after a short delay to allow page to load
+    setTimeout(() => {
+      play(randomAlbum.artist, randomAlbum.album, randomAlbum.year);
+    }, 500);
+  };
+
   const formatDuration = (seconds: string | number | undefined) => {
     if (!seconds) return '';
     const sec = typeof seconds === 'string' ? parseInt(seconds) : seconds;
@@ -147,9 +170,14 @@ export function AlbumDetails() {
 
   return (
     <div className="album-details-page">
-      <button className="back-button" onClick={() => navigate('/')}>
-        ← Back to Collection
-      </button>
+      <div className="album-details-nav">
+        <button className="back-button" onClick={() => navigate('/')}>
+          ← Back to Collection
+        </button>
+        <button className="random-btn" onClick={handleRandomAlbum} title="Pick a random album from the collection">
+          🎲 Surprise Me!
+        </button>
+      </div>
 
       <div className="album-details-container">
         <div className="album-details-cover">
