@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import type { Album } from '@/types/album';
 import { usePlayer } from '@/contexts/PlayerContext';
 import { useFilters } from '@/contexts/FilterContext';
@@ -12,6 +13,7 @@ interface AlbumCardProps {
 
 export function AlbumCard({ album }: AlbumCardProps) {
   const [showTracks, setShowTracks] = useState(false);
+  const navigate = useNavigate();
   const { play } = usePlayer();
   const { setSearchTerm } = useFilters();
   const { toggleHeart, isHearted } = useHearts();
@@ -43,12 +45,16 @@ export function AlbumCard({ album }: AlbumCardProps) {
     revealAlbum(album.artist, album.album);
   };
 
+  const handleAlbumClick = () => {
+    navigate(`/album/${encodeURIComponent(album.artist)}/${encodeURIComponent(album.album)}`);
+  };
+
   const hearted = isHearted(album.artist, album.album);
   const nsfw = isNSFW(album.artist, album.album);
   const revealed = isRevealed(album.artist, album.album);
 
   return (
-    <div className="album">
+    <div className="album" onClick={handleAlbumClick} style={{ cursor: 'pointer' }}>
       <div className="album-cover-container">
         <img
           src={`/output/${album.cover}`}

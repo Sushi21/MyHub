@@ -7,6 +7,7 @@ import { NSFWProvider } from '@/contexts/NSFWContext';
 import { Header } from '@/components/layout/Header';
 import { FilterBar } from '@/components/filters/FilterBar';
 import { AlbumGrid } from '@/components/albums/AlbumGrid';
+import { AlbumDetails } from '@/components/albums/AlbumDetails';
 import { PreviewBar } from '@/components/layout/PreviewBar';
 import { NowPlaying } from '@/components/lastfm/NowPlaying';
 import { ScrobblingHistory } from '@/components/lastfm/ScrobblingHistory';
@@ -73,9 +74,9 @@ function AppContent() {
             <MostPopular />
             <FilterBar />
             <AlbumGrid />
-            <PreviewBar />
           </>
         } />
+        <Route path="/album/:artist/:album" element={<AlbumDetails />} />
         <Route path="/map" element={<WorldMap />} />
         <Route path="/map/:countryCode" element={<WorldMap />} />
         <Route path="/scrobbles" element={
@@ -86,6 +87,8 @@ function AppContent() {
         } />
         <Route path="/about" element={<About />} />
       </Routes>
+
+      <PreviewBar />
 
       <NowPlaying
         username="SushiBzh"
