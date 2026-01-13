@@ -296,7 +296,7 @@ export function ScrobblingHistory({ username, apiKey }: ScrobblingHistoryProps) 
               className={timeRange === 'week' ? 'active' : ''}
               onClick={() => handleTimeRangeChange('week')}
             >
-              Last Week
+              Last 7 Days
             </button>
             <button
               className={timeRange === 'month' ? 'active' : ''}
@@ -337,6 +337,7 @@ export function ScrobblingHistory({ username, apiKey }: ScrobblingHistoryProps) 
           <div className="scrobbles-list">
             {tracks.map((track, index) => {
               const albumArt = track.image.find(img => img.size === 'medium')?.['#text'] || '';
+              const lastFmUrl = `https://www.last.fm/music/${encodeURIComponent(track.artist['#text'])}/${encodeURIComponent(track.album['#text'])}`;
 
               return (
                 <div key={`${track.name}-${track.artist['#text']}-${index}`} className="scrobble-row">
@@ -347,8 +348,14 @@ export function ScrobblingHistory({ username, apiKey }: ScrobblingHistoryProps) 
                       <div className="scrobble-artwork-placeholder">♪</div>
                     )}
                   </div>
-                  <div className="scrobble-track">{track.name}</div>
-                  <div className="scrobble-artist">{track.artist['#text']}</div>
+                  <div className="scrobble-info">
+                    <div className="scrobble-track">
+                      <a href={lastFmUrl} target="_blank" rel="noopener noreferrer" className="scrobble-link">
+                        {track.name}
+                      </a>
+                    </div>
+                    <div className="scrobble-artist">{track.artist['#text']}</div>
+                  </div>
                   <div className="scrobble-date">
                     {sortBy === 'playcount' && track.playcount && `${track.playcount} tracks plays`}
                     {sortBy === 'date' && track.date?.uts && formatDate(track.date.uts)}
